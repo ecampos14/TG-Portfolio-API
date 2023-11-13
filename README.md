@@ -90,12 +90,9 @@ Foi desenvolvido um software web para a empresa Iacit que possibilita a automati
 
 * [Figma](https://www.figma.com/)
 
-
 Neste projeto houve a utilização dos serviços do Java no back-end.  foi utilizado em sua construção, no front-end com java utilizando javafx.
 Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
 A base de dados utilizada foi mantida, utilizando o SQLServer.
-
-
 
 ## Contribuições pessoais
 Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Java. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. 
@@ -103,8 +100,8 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
  <details>
 <summary>Registro e consultas dos dados</summary>
   No Java, foi feito o registro dos clientes, podendo associar eles a cada nivel do produto, divido em escopo, bronze, silver e gold . <hr>
- <pre><code> public class EscopoDAO {
-
+ <pre><code> 
+	 public class EscopoDAO {
 	Connection con;
 	PreparedStatement stm;
 	ResultSet rs;
@@ -128,7 +125,6 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 		} catch (SQLException ex) {
 			return null;
 		}
-
 	}
 </code></pre>
 <body>
