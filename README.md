@@ -87,6 +87,8 @@ A empresa busca uma solução que seja orientada a entrada de dados de parâmetr
 
 * [Figma](https://www.figma.com/)
 
+</details>
+
 Neste projeto houve a utilização dos serviços do Java no back-end.  foi utilizado em sua construção, no front-end com java utilizando javafx.
 Assim a conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
 A base de dados utilizada foi mantida, utilizando o SQLServer.
@@ -164,90 +166,34 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
  </details>  
    
  <details>
-<summary>Disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta</summary>
-  Utilizo bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos. Integrando esses gráficos à ferramenta, os disponibilizo aos usuários.
+<summary>Disponibilização de tabelas/summary>
+  Foi utilizado o javafx para a criação visual da tabela, usando o java para a população dos dados na tabrla bronze. 
   <pre><code>   
-const ctx1 = document.getElementById('graficoUmidade1').getContext('2d');
-const myChart1 = new Chart(ctx1, {
-type: 'line',            
-data: {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-    datasets: [{
-        label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
-        backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)',
-            'rgba(153, 102, 255, 0.2)',
-            'rgba(255, 159, 64, 0.2)'
-        ],
+List<BronzeDTO> ativacaoDTOs = new ArrayList<BronzeDTO>();
+		produtoAtivacaoObservableList = FXCollections.observableList(ativacaoDTOs);
+
+		colfontedadoBronze.setCellValueFactory(new PropertyValueFactory<SilverDTO, String>("idFonteDado"));
+		colProduto.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("nomeProduto"));
+		colFormato.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("formato"));
+		colSistema.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("sistema"));
+		colFrequencia.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("frequencia"));
+		colOrigem.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("origenDado"));
+		colVolume.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("volume"));
+
+		tabelaBronze.setItems(produtoAtivacaoObservableList);
         </code></pre>
 <body>
-  <h5>Neste código, eu utilizei a biblioteca Chart.js para criar um gráfico de linha em um elemento do meu documento HTML. O objetivo era exibir dados de um conjunto de votos, onde cada voto é representado por rótulos e valores. Cada rótulo representa uma categoria e cada valor representa a quantidade de votos correspondente a essa categoria. Para tornar a visualização mais intuitiva, defini a cor de fundo das barras do gráfico utilizando a propriedade `backgroundColor`. Essa configuração me permitiu visualizar os dados de forma mais clara, identificando facilmente as diferentes categorias através das cores. No exemplo que eu forneci, pude exibir seis categorias distintas juntamente com as suas respectivas quantidades de votos.</h5>
+  <h5> O código apresenta a inicialização e configuração de uma tabela JavaFX associada a objetos do tipo BronzeDTO. Primeiro, uma lista observável (produtoAtivacaoObservableList) é criada a partir de uma lista vazia de objetos BronzeDTO. Em seguida, as colunas da tabela são vinculadas aos atributos correspondentes da classe BronzeDTO usando PropertyValueFactory. Cada coluna representa um atributo específico.</h5>
 </body>
  </details>
- <details>
- <summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
-  Com Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, crio relatórios em PDF, Excel, CSV, entre outros. Esses relatórios são acessíveis por links ou botões nas telas da aplicação.
-<pre><code>
-    public static ByteArrayInputStream exportarPdfPrecipitacao (List<ViewPrecipitacaoModal> viewPrecipitacaoModals) throws IOException {
-
-        //Criando o documento PDF
-        Document document = new Document(PageSize.A4.rotate(), 25, 25, 25, 25);
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-
-        try {
-
-            //Criando a tabela para o relatório
-            PdfPTable table = new PdfPTable(2);
-            table.setWidthPercentage(100);
-            table.setWidths(new int[] { 4, 4});
-
-            //Criando o cabeçalho da tabela
-            Font headFont = FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14, BaseColor.WHITE);
-
-            PdfPCell hcell;
- </code></pre>
  
-<body>
-  <h5>Neste código, foi criado um documento PDF usando a biblioteca iText para Java. O documento é configurado com o tamanho da página A4 no formato paisagem (rotacionado) e são definidas as margens. Em seguida, foi criada uma tabela para o relatório usando a classe `PdfPTable`, com duas colunas. O cabeçalho da tabela é definido com a fonte `HELVETICA_BOLD` e tamanho 14. Um objeto `PdfPCell` é criado para armazenar cada célula da tabela.</h5>
-</body>
+Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram nas consultas dos dados, criação do crud da tela de bronze e silver, disponibilização de dados em diferentes formatos de tabelas na nossa ferramenta.
 
- </details>
-   
- <details>
- <summary>Criação e recuperação de logs e atualização dos registros de usuários e atas</summary>
-  Uso bibliotecas de logging, como Log4j ou SLF4J, para criar logs com informações relevantes. Com o Spring Data JPA, recupero registros, faço atualizações e salvo as       alterações nos dados do usuário e atas.
-<pre><code>
-@Service
-public class LogService {
-
-	    @Autowired 
-	    LogRepository logrep;
-
-	    public ModelAndView listar(LogUsuarioDTO logusuario) {
-	    	ModelAndView  moden= new ModelAndView();
-	    	LogUsuarioModal logAtiva = logrep.findByLogCodUsuario(logusuario.getLogCodUsuario());
-	 
-	        moden.addObject("estacaoAtiva", logAtiva);
-	 		moden.setViewName("UsuarioUpEst");
-	 		
-	 		return moden;
-	    }
-</code></pre>
-
-<body>
-  <h5>Nesta classe, o `LogService`, eu criei um serviço no Spring responsável por lidar com operações relacionadas a logs de usuários. No método `listar`, eu utilizei a anotação `@Autowired` para injetar o repositório `LogRepository` e buscar informações do log do usuário. Em seguida, criei um objeto `ModelAndView` para retornar os dados do log de usuário para a view "UsuarioUpEst". Para isso, obtive o objeto `logAtiva` do repositório com base no código do usuário fornecido no DTO `logusuario`. Adicionei esse objeto ao `ModelAndView` e o retornei para a view.
-</h5>
-</body>
-</details>
-   
-   
-Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram nas consultas dos dados e disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta.
-
-
+## Aprendizados Efetivos HS
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
+- Desenvolvimento de aplicação desktops usando java: Sei fazer com autonomia; <br/>
+- Desenvolvimento de tabelas em javafx: Sei fazer com autonomia; <br/>
+- Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
 
 # Projeto 3 - 2º semestre de 2022
 ## Empresa parceira:
