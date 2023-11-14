@@ -31,12 +31,11 @@ DOMROCK
 <p align="center"><img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg" height="300"/>
 
 
-Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
+U é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
 ## Visão do Projeto
 
-O desafio consiste em desenvolver uma solução na gestão de ativação do cliente na plataforma Dom Rock.
-A empresa busca uma solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, principalmente, tenha a base de dados modelada adequadamente para futuras integrações com outros sistemas.
+Uma aplicação desktop foi desenvolvida como solução para a gestão de ativação do cliente na plataforma Dom Rock. A empresa buscava uma solução orientada à entrada de dados de parâmetros e variáveis específicas de cada cliente, a fim de alocar recursos na plataforma Dom Rock. Essa aplicação também permitia a entrada de dados e a estimativa de consumo de recursos, baseada em critérios como o volume de dados do cliente, quantidade de usuários, entre outros. Além disso, a aplicação tinha a capacidade de gerar relatórios e consultas. Um aspecto crucial do desenvolvimento foi a modelagem apropriada da base de dados, visando futuras integrações com outros sistemas.
 
 #
   
@@ -206,11 +205,9 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 
 Foi desenvolvido um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada dos dados meteorológicos. Além disso, também será possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, fpi desenvolvido tambem níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
 
-#
-  
   <p align="center">
       <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
-<p align="center">                                                                                                                                                                                                                                                                  
+<p align="center">                                                                                                                                     
 ## Tecnologias Utilizadas
 <details>
 <summary>Front-End</summary>
@@ -218,7 +215,6 @@ Foi desenvolvido um software web para a empresa Iacit que possibilita a automati
 * [JavaScript](https://www.javascript.com)
 * [HTML](https://www.w3schools.com/css/)
 * [CSS](https://www.w3schools.com/css/)
- 
 
 </details>
 
@@ -261,8 +257,6 @@ Foi desenvolvido um software web para a empresa Iacit que possibilita a automati
 
 * [Photoshop](https://www.adobe.com/br/products/photoshop.html?sdid=KQPOM&mv=search&ef_id=d67181c6b224183a4875e395ae54f4bf:G:s&s_kwcid=AL!3085!10!79302406606568!79302288716688&msclkid=d67181c6b224183a4875e395ae54f4bf)
 </details>
-
-
 
 Neste projeto houve a utilização dos serviços do Spring como API do back-end.  foi utilizado em sua construção, no front-end a linguagem Javascript, juntamente com o Ajax.
 Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
@@ -414,3 +408,23 @@ Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços 
 - Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
 - Desenvolvimento de graficos para aplicação usando Chart.js: Sei fazer com autonomia; <br/>
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
+
+# Projeto 4 - 1º semestre de 2023
+## Empresa parceira:
+Embraer
+
+<p align="center"><img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" height="300"/>
+
+
+Embraer, é uma empresa brasileira, fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área. A empresa tem sede no município de São José dos Campos, interior do estado de São Paulo, e possui diversas unidades no Brasil e no exterior, inclusive joint ventures na China e em Portugal.
+
+## Visão do Projeto
+
+Foi desenvolvido um software web para a empresa Embraer que possibilita encontrar as aeronaves, associadas aos pilotos, pois atualmente, muitos pilotos trabalham como freelancers e não operam apenas uma aeronave/frota, o que dificulta o reconhecimento fácil e simples de determinados equipamentos e versões de software instalados na aeronave. Além disso, os pilotos nem sempre têm acesso rápido a todos os manuais e documentos da aeronave, o que prejudica o seu conhecimento sobre ela e suas capacidades.
+
+#
+  
+  <p align="center">
+      <img src=https://raw.githubusercontent.com/octopusBD/apiEmbraer4-sem/Sprint-4/Imagens%20documentacao/doc/gifSprint4.gif width="100%" height="100%">
+<p align="center">                                                                                                                                                  
+## Tecnologias Utilizadas
