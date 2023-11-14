@@ -16,7 +16,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 ## Empresa parceira:
 Projeto Interno
 
-<img src="https://user-images.githubusercontent.com/88864112/270816612-4690de07-657c-4136-8336-be70fd8fdef3.jpg" height="300"/>
+<p align="center"><img src="https://user-images.githubusercontent.com/88864112/270816612-4690de07-657c-4136-8336-be70fd8fdef3.jpg" height="300"/>
 
 A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março de 2006, é uma Faculdade Pública Estadual e todos os cursos oferecidos são gratuitos.
 
@@ -28,7 +28,7 @@ Foi desenvolvido um projeto, usando a linguagem de programação Python, para co
 ## Empresa parceira:
 DOMROCK
 
-<img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg" height="300"/>
+<p align="center"><img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg" height="300"/>
 
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
@@ -42,8 +42,7 @@ A empresa busca uma solução que seja orientada a entrada de dados de parâmetr
   
   <p align="center">
       <img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif" width="100%" height="100%">
-<p align="center">                                                                                                                                                  ##### *Figura 02. Fluffy (Fonte: https://github.com/fluffyfatec/DomRock)*
-
+<p align="center">                                                                                                                                                  
 ## Tecnologias Utilizadas
 <details>
 <summary>Front-End</summary>
@@ -199,9 +198,7 @@ Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços 
 ## Empresa parceira:
 IACIT
 
-<img src="https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png" height="300"/>
-
-##### *Figura 01. IACIT (Fonte: https://www.iacit.com.br/)*
+<p align="center"><img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-1/GIT/cabecario%20(3).jpg" height="300"/>
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
@@ -213,11 +210,7 @@ Foi desenvolvido um software web para a empresa Iacit que possibilita a automati
   
   <p align="center">
       <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
-<p align="center">                                                                                                                                     
-                                                                                                                                        
-##### *Figura 02. Fluffy (Fonte: https://github.com/fluffyfatec/Iacit)*
-
-
+<p align="center">                                                                                                                                                                                                                                                                  
 ## Tecnologias Utilizadas
 <details>
 <summary>Front-End</summary>
