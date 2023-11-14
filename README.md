@@ -35,17 +35,14 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 
 ## Visão do Projeto
 
-Foi desenvolvido um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada dos dados meteorológicos. Além disso, também será possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, fpi desenvolvido tambem níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
+O desafio consiste em desenvolver uma solução na gestão de ativação do cliente na plataforma Dom Rock.
+A empresa busca uma solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, principalmente, tenha a base de dados modelada adequadamente para futuras integrações com outros sistemas.
 
 #
   
   <p align="center">
-      <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
-<p align="center">                                                                                                                                     
-                                                                                                                                        
-##### *Figura 02. Fluffy (Fonte: https://github.com/fluffyfatec/Iacit)*
-
-
+      <img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif" width="100%" height="100%">
+<p align="center">                                                                                                                                                  ##### *Figura 02. Fluffy (Fonte: https://github.com/fluffyfatec/DomRock)*
 
 ## Tecnologias Utilizadas
 <details>
@@ -91,7 +88,7 @@ Foi desenvolvido um software web para a empresa Iacit que possibilita a automati
 * [Figma](https://www.figma.com/)
 
 Neste projeto houve a utilização dos serviços do Java no back-end.  foi utilizado em sua construção, no front-end com java utilizando javafx.
-Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
+Assim a conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
 A base de dados utilizada foi mantida, utilizando o SQLServer.
 
 ## Contribuições pessoais
@@ -128,40 +125,41 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 	}
 </code></pre>
 <body>
-  <h5>A interface "EstacaoRepository" é uma extensão da classe "JpaRepository" que fornece métodos para operações básicas de persistência de dados. Eu implementei consultas personalizadas usando a anotação "@Query" do Spring Data JPA para selecionar instâncias da entidade "estacao" com base em critérios específicos, como o valor do atributo "codWmo" e o nome da estação. Também adicionei um método para listar todas as estações na tabela "estacao" usando uma consulta SQL nativa. No geral, essa interface me ajudou a facilitar o acesso e a manipulação de dados relacionados às estações.</h5>
+  <h5>O trecho Java pertence à classe EscopoDAO e inclui o método consultaId. Este método realiza consultas no banco de dados para obter informações de clientes com base no CNPJ fornecido. Utiliza boas práticas, como parametrização para prevenir injeção de SQL, e emprega o "try-with-resources" para garantir o fechamento adequado de recursos, como conexões.</h5>
 </body>
 
  </details>
   
  <details>
-<summary>Atualização de registros complexos como o Usuario</summary>
-  Para atualizar registros complexos, como um usuario, mapeio-os como entidades JPA e uso o Spring Data JPA para atualizá-los. Recupero a entidade, faço as modificações necessárias e salvo as alterações com o método save().
+<summary>Atualização de registros de clientes</summary>
+  Para atualizar registros complexos, como um clientes, foi criado metodo no controller, que possibilita a atualização dos dados de um cliente ja existente no banco de dados. 
   <pre><code>
-  public ModelAndView execute(UsuarioRequestDTO data) {
-    ModelAndView modelAndView = new ModelAndView();
-    UsuarioModal userAdmin = usuarioRepository.findByUsuarioUsername(data.getUsuario_nome_adm());   
-    PermissaoModal permissao = permissaoRepository.findByPermissaoNome(data.getNome_permissao());
-    UsuarioModal user = usuarioRepository.findByUsuarioUsername(data.getUsuario_username());
-    BCryptPasswordEncoder encode = new BCryptPasswordEncoder();
-
-    String senhaEncriptografada = encode.encode(data.getUsuario_senha());
-
-    user.setCodPermissao(permissao);
-    user.setUsuarioCadastrante(userAdmin);
-    user.setUsuarioNome(data.getUsuario_nome());
-    user.setUsuarioSenha(senhaEncriptografada);
-    user.setUsuarioUsername(data.getUsuario_username());
-    user.setUsuarioAlterou(userAdmin);
-
-    user = usuarioRepository.save(user); 
-
-    modelAndView.addObject("user", user);
-    modelAndView.setViewName("HfefCadUsuario");
-    return modelAndView;
-}
+  @FXML
+	void btn_att_salvar() {
+		if(txt_att_razao_social.getText().equals("") || txt_att_cnpj.getLength() != 14) {
+			exibiDialogoERRO("ERRO! Por favor, insira todos os campos corretamente.");
+		}else {
+			clienteSelecionado = table_cliente.getSelectionModel().getSelectedItem();
+	
+			clienteSelecionado.setCnpj(txt_att_cnpj.getText());
+			clienteSelecionado.setRazao_social(txt_att_razao_social.getText());
+			String segmento = box_att_segmento.getSelectionModel().getSelectedItem().toString();
+			clienteSelecionado.setSegmento(segmento);
+			try {
+				dao.atualizar(clienteSelecionado);
+				exibiDialogoINFO("Cliente ATUALIZADO com sucesso!");
+				abas.getSelectionModel().select(consultar);
+				btn_consulta_cnpj();
+				atualizar.setDisable(true);
+			} catch (Exception e) {
+				exibiDialogoERRO("ERRO! Falha ao ATUALIZAR.");
+	
+			}
+		}
+	}
 </code></pre>
 <body>
-  <h5>Neste código, trato de uma operação de atualização de usuário no sistema. Recebo um objeto `UsuarioRequestDTO` contendo os dados atualizados do usuário e utilizo os repositórios para buscar os objetos relacionados. Em seguida, criptografo a senha fornecida pelo usuário. Atualizo as propriedades do usuário com os dados do DTO e salvo o objeto `user` novamente no repositório. Por fim, configuro um objeto `ModelAndView` com o usuário atualizado e o retorno para a view "HfefCadUsuario", indicando que a atualização foi realizada com sucesso.</h5>
+  <h5>O método btn_att_salvar trata da lógica de atualização de informações de um cliente em uma aplicação JavaFX. Ele verifica se os campos obrigatórios (razão social e CNPJ de 14 caracteres) foram preenchidos corretamente. Se não, exibe um diálogo de erro. Caso contrário, atualiza o cliente selecionado na tabela com os novos dados, realiza a atualização no banco de dados via o método atualizar da classe dao, e, em caso de sucesso, exibe um diálogo informativo.<h5>
 </body>
  </details>  
    
