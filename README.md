@@ -166,10 +166,10 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
  </details>  
    
  <details>
-<summary>Disponibilização de tabelas/summary>
+<summary>Disponibilização de tabelas </summary>
   Foi utilizado o javafx para a criação visual da tabela, usando o java para a população dos dados na tabrla bronze. 
   <pre><code>   
-List<BronzeDTO> ativacaoDTOs = new ArrayList<BronzeDTO>();
+    List<BronzeDTO> ativacaoDTOs = new ArrayList<BronzeDTO>();
 		produtoAtivacaoObservableList = FXCollections.observableList(ativacaoDTOs);
 
 		colfontedadoBronze.setCellValueFactory(new PropertyValueFactory<SilverDTO, String>("idFonteDado"));
