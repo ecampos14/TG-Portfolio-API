@@ -16,13 +16,61 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 ## Empresa parceira:
 Projeto Interno
 
-<p align="center"><img src="https://user-images.githubusercontent.com/88864112/270816612-4690de07-657c-4136-8336-be70fd8fdef3.jpg" height="300"/>
+<p align="center"><img src="https://user-images.githubusercontent.com/88864112/143785694-09c566e8-8911-4b14-8231-77199dcd8079.jpg" height="300"/>
 
 A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março de 2006, é uma Faculdade Pública Estadual e todos os cursos oferecidos são gratuitos.
 
 ## Visão do Projeto
-Foi desenvolvido um projeto, usando a linguagem de programação Python, para coletar, tratar e visualizar dados da COVID-19 no estado de São Paulo. O protótipo buscava fornecer informações detalhadas sobre a situação da pandemia por meio de várias visualizações de dados contextuais. A principal ênfase foi na manipulação offline de dados no formato CSV, minimizando a dependência de APIs prontas e relatórios de sites governamentais.
+Foi desenvolvido um projeto desktop, usando a linguagem de programação Python, para coletar, tratar e visualizar dados da COVID-19 no estado de São Paulo. O protótipo buscava fornecer informações detalhadas sobre a situação da pandemia por meio de várias visualizações de dados contextuais. A principal ênfase foi na manipulação offline de dados no formato CSV, minimizando a dependência de APIs prontas e relatórios de sites governamentais.
 
+  <p align="center">
+      <img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif" width="100%" height="100%">
+<p align="center">  
+
+## Tecnologias Utilizadas
+<details>
+<summary>Front-End</summary>
+
+* [JavaFX Scene Builder 3](https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
+</details>
+
+<details>
+<summary>Back-End</summary>
+
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+
+</details>
+
+<details>
+<summary>Banco de Dados</summary>
+
+* [SQL Server Nuvem Azure](https://azure.microsoft.com/pt-br/services/sql-database/campaign/)
+</details>
+
+<details>
+<summary>Reuniões e Comunicação</summary>
+
+* [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
+
+* [Whatsapp](https://www.whatsapp.com/)
+
+* [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
+</details>
+
+<details>
+<summary>Outras Ferramentas</summary>
+
+* [Github](https://github.com/)
+
+* [Eclipse IDE](https://www.eclipse.org/downloads/)
+
+* [IntelliJ IDE](https://www.jetbrains.com/idea/promo/?msclkid=6ae44e88c2811d86c0ae2cdbd94ffcfb&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea)
+
+* [Jira](https://www.atlassian.com/br/software/jira?msclkid=c8e971f7b8f811ec957d13ca3bfc6c1b)
+
+* [Figma](https://www.figma.com/)
+
+</details>
 
 # Projeto 2 - 1º semestre de 2022
 ## Empresa parceira:
@@ -31,7 +79,7 @@ DOMROCK
 <p align="center"><img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg" height="300"/>
 
 
-U é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
+DOMROCK é uma empresa brasileira com sede em São José dos Campos - SP. localizada no Parque tecnologico, trabalha com tramento e atualizações de dados em grandes escalas. 
 
 ## Visão do Projeto
 
@@ -422,9 +470,160 @@ Embraer, é uma empresa brasileira, fabricante de aviões comerciais, executivos
 
 Foi desenvolvido um software web para a empresa Embraer que possibilita encontrar as aeronaves, associadas aos pilotos, pois atualmente, muitos pilotos trabalham como freelancers e não operam apenas uma aeronave/frota, o que dificulta o reconhecimento fácil e simples de determinados equipamentos e versões de software instalados na aeronave. Além disso, os pilotos nem sempre têm acesso rápido a todos os manuais e documentos da aeronave, o que prejudica o seu conhecimento sobre ela e suas capacidades.
 
-#
-  
   <p align="center">
       <img src=https://raw.githubusercontent.com/octopusBD/apiEmbraer4-sem/Sprint-4/Imagens%20documentacao/doc/gifSprint4.gif width="100%" height="100%">
-<p align="center">                                                                                                                                                  
+<p align="center">      
+
 ## Tecnologias Utilizadas
+<details>
+<summary>Front-End</summary>
+
+* [vue](https://vuejs.org/)
+* [HTML](https://www.w3schools.com/css/)
+* [CSS](https://www.w3schools.com/css/)
+
+</details>
+
+<details>
+<summary>Back-End</summary>
+
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+
+* [Spring boot](https://spring.io/projects/spring-boot)
+
+</details>
+
+<details>
+<summary>Database</summary>
+
+* [Oracle Autonomous Database](https://www.oracle.com/autonomous-database/)
+</details>
+
+<details>
+<summary>Outras Ferramentas</summary>
+
+* [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
+
+* [Whatsapp](https://www.whatsapp.com/)
+
+* [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
+</details>
+
+Neste projeto houve a utilização dos serviços do Spring como API do back-end.  foi utilizado em sua construção, no front-end a linguagem Javascript, juntamente com o Vue.js.
+Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
+A base de dados utilizada foi mantida, utilizando o Oracle.
+
+## Contribuições pessoais
+Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Java, com Spring. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. 
+  
+ <details>
+<summary>Registro e consultas dos dados</summary>
+  No Java com Spring, uso o Spring Data JPA para registrar e consultar dados. Ele oferece interfaces de repositório que estendem JpaRepository, proporcionando métodos prontos para operações de dados. <hr>
+ <pre><code> @Repository
+
+    // LISTAR DISPONIBILIDADE POR ID //
+	public List<ViewEstatisticaDisponibilidadeEntity> findByIdUsuario(Integer idUsuario) {
+		return estatisticaDisponibilidadeRepository.findByIdUsuario(idUsuario);
+	}
+
+	// LISTAR PERMISSAO //
+    public List<ViewEstatisticaUsuario> getAllPermissao() {
+        return estatisticapermissao.findAll();
+    }
+
+</code></pre>
+<body>
+  <h5>Os métodos para operações básicas de persistência de dados. Eu implementei consultas personalizadas usando  Spring Data JPA para selecionar instâncias da entidade "ViewEstatisticaDisponibilidadeEntity" com base em critérios específicos, como o valor do atributo "IdUsuario". Também adicionei um método para listar todos os dados na tabela  usando uma consulta usando o JPA. No geral, o JPA me ajudou a facilitar o acesso e a manipulação de dados relacionados às visualizações.</h5>
+</body>
+
+ </details>
+  
+ <details>
+<summary>Atualização de registros como o Usuario</summary>
+  Para atualizar registros complexos, como um usuario, mapeio-os como entidades JPA e uso o Spring Data JPA para atualizá-los. Recupero a entidade, faço as modificações necessárias e salvo as alterações com o método save().
+  <pre><code>
+   //@PreAuthorize("hasRole('ADMIN')")
+		public UsuarioEntity atualizarUsuario(Integer idUsuario, UsuarioDTO usuarioNovo) {
+		    Optional<UsuarioEntity> optionalUsuario = usuarioRepository.findById(idUsuario);
+		    System.err.println(optionalUsuario);
+		    System.err.println(usuarioNovo);
+		    if (optionalUsuario.isPresent()) {
+		        UsuarioEntity usuario = optionalUsuario.get();
+		        usuario.setLoginUsuario(usuarioNovo.getLoginUsuario());
+		        
+		        //Optional<PermissaoEntity> optionalPermissao = permissaoRepository.findByIdPermissao(usuarioNovo.getIdPermissao().getIdPermissao());
+		        Optional<PermissaoEntity> optionalPermissao = permissaoRepository.findByPermissao(usuarioNovo.getPermissao());
+		        if (optionalPermissao.isPresent()) {
+		            usuario.setIdPermissao(optionalPermissao.get());
+		        }
+	
+		        return usuarioRepository.save(usuario);
+		    } else {
+}
+</code></pre>
+<body>
+  <h5>Neste código, trato de uma operação de atualização de usuário no sistema. Recebo um objeto `UsuarioEntity` contendo os dados atualizados do usuário e utilizo os repositórios para buscar os objetos relacionados. Em seguida, criptografo a senha fornecida pelo usuário.</h5>
+</body>
+ </details>  
+   
+ <details>
+<summary>Disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta</summary>
+  Utilizo bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos. Integrando esses gráficos à ferramenta, os disponibilizo aos usuários.
+  <pre><code>   
+c  const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString()}`;
+        const imgData = "https://cdn.discordapp.com/attachments/1075971608684023814/1111350679022346260/logo-dois.png";
+
+        const titleWidth = doc.getStringUnitWidth(title) * doc.internal.getFontSize() / doc.internal.scaleFactor;
+        const titleX = (doc.internal.pageSize.getWidth() - titleWidth) / 2;
+        const titleHeight = 11; // Altura da primeira faixa
+        const titleFontSize = 20; // Tamanho da fonte do título
+        const titleY = 15 + (titleHeight - titleFontSize) / 2 + titleFontSize * 0.35;
+        </code></pre>
+<body>
+  <h5>Neste código, eu utilizei a biblioteca Chart.js para criar um gráfico de linha em um elemento do meu documento HTML. Para tornar a visualização mais intuitiva, defini a cor de fundo das barras do gráfico utilizando a propriedade `backgroundColor`. Essa configuração me permitiu visualizar os dados de forma mais clara, identificando facilmente as diferentes categorias através das cores. No exemplo que eu forneci, pude exibir seis categorias distintas juntamente com as suas respectivas quantidades de votos.</h5>
+</body>
+ </details>
+ <details>
+ <summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
+  Com Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, crio relatórios em PDF. Esses relatórios são acessíveis por botões nas telas da aplicação.
+<pre><code>
+	public static ByteArrayInputStream exportarPdfConsulta (List<ViewListarLogicaEntity> viewsample) throws IOException {
+		
+			//Criando o documento PDF
+		Document document = new Document(PageSize.A4.rotate(), 25, 25, 25, 25);
+		ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+		try {
+			//Criando a tabela para o relatório
+			PdfPTable table = new PdfPTable(2);
+			table.setWidthPercentage(100);
+			table.setWidths(new int[] { 4, 4});
+			
+			
+			//Criando o cabeçalho da tabela
+			Font headFont = FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14, BaseColor.WHITE);
+
+			PdfPCell hcell;
+
+			hcell = new PdfPCell(new Phrase("Item", headFont));
+			hcell.setPaddingTop(9f);
+			hcell.setFixedHeight(40f);
+			hcell.setVerticalAlignment(Element.ALIGN_CENTER);
+			hcell.setHorizontalAlignment(Element.ALIGN_CENTER);
+			table.addCell(hcell);
+ </code></pre>
+ 
+<body>
+  <h5>Neste código, foi criado um documento PDF usando a biblioteca iText para Java. O documento é configurado com o tamanho da página A4 no formato paisagem (rotacionado) e são definidas as margens. Em seguida, foi criada uma tabela para o relatório usando a classe `PdfPTable`, com duas colunas. O cabeçalho da tabela é definido com a fonte `HELVETICA_BOLD` e tamanho 14. Um objeto `PdfPCell` é criado para armazenar cada célula da tabela.</h5>
+</body>
+
+ </details>
+      
+   
+Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram nas consultas dos dados e disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta.
+
+## Aprendizados Efetivos HS
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
+- Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
+- Desenvolvimento de graficos para aplicação usando Chart.js: Sei fazer com autonomia; <br/>
+- Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
