@@ -24,27 +24,15 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 Foi desenvolvido um projeto desktop, usando a linguagem de programação Python, para coletar, tratar e visualizar dados da COVID-19 no estado de São Paulo. O protótipo buscava fornecer informações detalhadas sobre a situação da pandemia por meio de várias visualizações de dados contextuais. A principal ênfase foi na manipulação offline de dados no formato CSV, minimizando a dependência de APIs prontas e relatórios de sites governamentais.
 
   <p align="center">
-      <img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif" width="100%" height="100%">
+      <img src="https://raw.githubusercontent.com/ecampos14/TG-Portfolio-API/main/1°SEM/Obtos%20por%20municipio.PNG" width="100%" height="100%">
 <p align="center">  
-
 ## Tecnologias Utilizadas
-<details>
-<summary>Front-End</summary>
-
-* [JavaFX Scene Builder 3](https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
-</details>
 
 <details>
 <summary>Back-End</summary>
 
-* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+* [Python](https://www.python.org)
 
-</details>
-
-<details>
-<summary>Banco de Dados</summary>
-
-* [SQL Server Nuvem Azure](https://azure.microsoft.com/pt-br/services/sql-database/campaign/)
 </details>
 
 <details>
@@ -54,7 +42,6 @@ Foi desenvolvido um projeto desktop, usando a linguagem de programação Python,
 
 * [Whatsapp](https://www.whatsapp.com/)
 
-* [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
 </details>
 
 <details>
@@ -62,15 +49,72 @@ Foi desenvolvido um projeto desktop, usando a linguagem de programação Python,
 
 * [Github](https://github.com/)
 
-* [Eclipse IDE](https://www.eclipse.org/downloads/)
-
-* [IntelliJ IDE](https://www.jetbrains.com/idea/promo/?msclkid=6ae44e88c2811d86c0ae2cdbd94ffcfb&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea)
-
-* [Jira](https://www.atlassian.com/br/software/jira?msclkid=c8e971f7b8f811ec957d13ca3bfc6c1b)
-
-* [Figma](https://www.figma.com/)
+* [Pycharm IDE](https://www.jetbrains.com/pt-br/pycharm/)
 
 </details>
+
+## Contribuições pessoais
+Nesse Projeto atuei como Master e no desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Python. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time. 
+  
+ <details>
+<summary>Atualização do csv</summary>
+  No Python, foi feito a função qual mantinha a fonte de dados do csv, atualizada. <hr>
+ <pre><code> 
+th = os.path.expanduser('~\Documents\caso_full.csv.gz')
+output = os.path.expanduser('~\Documents\caso_full.csv')
+
+def atualizar():
+    print("Iniciando o download do arquivo.")
+    url = 'https://data.brasil.io/dataset/covid19/caso_full.csv.gz'  # link para o arquivo fornecido pelo site Brasil.IO
+    r = requests.get(url, allow_redirects=True)
+
+    with open(path, 'wb') as f:
+        f.write(r.content)
+        print("Download do arquivo concluido.")
+        """Após o download do arquivo, salva na pasta documentos"""
+
+    with gzip.open(path, 'rb') as f_in:
+        with open(output, 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+        """Extrai o arquivo da fila .GZ na pasta Documentos do usuário"""
+        print("Extração concluída.")
+</code></pre>
+<body>
+  <h5>Esta função baixa um arquivo comprimido relacionado à COVID-19, o salva localmente, e em seguida, realiza a extração desse arquivo comprimido. O código parece depender de bibliotecas externas como requests, gzip e shutil</h5>
+</body>
+
+ </details>
+  
+ <details>
+<summary>Tratamento de dados com pandas </summary>
+  Foi trabalhando com dados temporais, criando novas variáveis e realizando operações de filtragem e agregação no DataFrame pandas. 
+   <pre><code>   
+    df = df.drop_duplicates()  # retira valores duplicados.
+    df['data'] = pd.to_datetime(df['data'])  # cria uma coluna de data
+    df['ano'] = pd.DatetimeIndex(df['data']).year  # cria uma coluna de ano
+    df['mes'] = pd.DatetimeIndex(df['data']).month  # cria uma coluna de mes
+    df['mes_nome'] = df['data'].dt.strftime('%B')  # transforma o numero da coluna 'mes' para nome do mes
+    df['mes_ano'] = df['mes_nome'].astype(str) + "-" + df['ano'].astype(str)  # concatena mes e ano
+    df['dia'] = pd.DatetimeIndex(df['data']).day
+    df['chave'] = df['cidade'] + df['mes_nome'] + df['ano'].astype(str)
+
+    '''Variáveis'''
+
+    dia_1 = date.today() - timedelta(days=1)
+    dia_1.strftime("%Y-%m-%d")
+
+    total_mortes_sp = df['mortes'].loc[df['estado'] == 'SP'].loc[
+        df['data'] == str(dia_1)].sum()  
+<body>
+  <h5> O código manipula um DataFrame, adicionando colunas relacionadas a datas e cidades. Em seguida, calcula o total de mortes em São Paulo na data de ontem. Essas operações são úteis para análises temporais e agregações específicas em conjuntos de dados</h5>
+</body>
+ </details>
+ 
+Atuei em praticamente todas essas frentes, criando diferentes rotas e serviços para implementar funcionalidades no sistema. Minhas principais contribuições foram nas consultas de dados, tratamento e atualização de arquivos. No entanto, destaco meu papel principal nas tarefas de gestão, na parte organizacional do projeto.
+## Aprendizados Efetivos HS
+- Desenvolvimento de serviços update: Sei fazer com autonomia; <br/>
+- tratamento de dados, utilizando pandas: Sei fazer com autonomia; <br/>
+- Criação da documentação e organização do projeto: Sei fazer com autonomia; <br/>
 
 # Projeto 2 - 1º semestre de 2022
 ## Empresa parceira:
