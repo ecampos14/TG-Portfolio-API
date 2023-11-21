@@ -12,8 +12,6 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 <p align="center">• <a href="https://www.linkedin.com/in/ecampos14/">LinkedIn</a> • <a href="https://github.com/ecampos14">GitHub</a> •</p>
 <hr>
 
-Claro, aqui está o texto formatado:
-
 # Projeto 1 - 2º semestre de 2021
 
 ## Empresa parceira:
@@ -100,8 +98,8 @@ df['mes'] = pd.DatetimeIndex(df['data']).month  # cria uma coluna de mes
 df['mes_nome'] = df['data'].dt.strftime('%B')  # transforma o numero da coluna 'mes' para nome do mes
 df['mes_ano'] = df['mes_nome'].astype(str) + "-" + df['ano'].astype(str)  # concatena mes e ano
 df['dia'] = pd.DatetimeIndex(df['data']).day
-df['chave'] = df['cidade'] + df['mes_nome'] + df['ano'].astype(str)
-
+df['chave'] = df['cidade'] + df['mes_nome'] + df['ano'].astype(str
+	
 '''Variáveis'''
 
 dia_1 = date.today() - timedelta(days=1)
@@ -136,27 +134,49 @@ Uma aplicação desktop foi desenvolvida como solução para a gestão de ativa�
 ![Protótipo](https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif)
 
 ## Tecnologias Utilizadas
+<details>
+<summary>Front-End</summary>
 
-### Front-End
-- [JavaFX Scene Builder 3](https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
+* [JavaFX Scene Builder 3](https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
+</details>
 
-### Back-End
-- [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+<details>
+<summary>Back-End</summary>
 
-### Banco de Dados
-- [SQL Server Nuvem Azure](https://azure.microsoft.com/pt-br/services/sql-database/campaign/)
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
 
-### Reuniões e Comunicação
-- [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
-- [Whatsapp](https://www.whatsapp.com/)
-- [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
+</details>
 
-### Outras Ferramentas
-- [Github](https://github.com/)
-- [Eclipse IDE](https://www.eclipse.org/downloads/)
-- [IntelliJ IDE](https://www.jetbrains.com/idea/promo/?msclkid=6ae44e88c2811d86c0ae2cdbd94ffcfb&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea)
-- [Jira](https://www.atlassian.com/br/software/jira?msclkid=c8e971f7b8f811ec957d13ca3bfc6c1b)
-- [Figma](https://www.figma.com/)
+<details>
+<summary>Banco de Dados</summary>
+
+* [SQL Server Nuvem Azure](https://azure.microsoft.com/pt-br/services/sql-database/campaign/)
+</details>
+
+<details>
+<summary>Reuniões e Comunicação</summary>
+
+* [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
+
+* [Whatsapp](https://www.whatsapp.com/)
+
+* [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
+</details>
+
+<details>
+<summary>Outras Ferramentas</summary>
+
+* [Github](https://github.com/)
+
+* [Eclipse IDE](https://www.eclipse.org/downloads/)
+
+* [IntelliJ IDE](https://www.jetbrains.com/idea/promo/?msclkid=6ae44e88c2811d86c0ae2cdbd94ffcfb&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea)
+
+* [Jira](https://www.atlassian.com/br/software/jira?msclkid=c8e971f7b8f811ec957d13ca3bfc6c1b)
+
+* [Figma](https://www.figma.com/)
+
+</details>
 
 Neste projeto, houve a utilização dos serviços do Java no back-end. Foi utilizado em sua construção, no front-end, o JavaFX utilizando o Scene Builder. A conexão com o banco de dados e a manutenção do banco para alterações foram realizadas por meio de migrations. A base de dados utilizada foi mantida, utilizando o SQL Server.
 
@@ -229,9 +249,7 @@ void btn_att_salvar() {
 </code></pre>
 <body>
     <h5>O método btn_att_salvar trata da lógica de atualização de informações de um cliente em uma aplicação JavaFX. Ele verifica se os campos obrigatórios (razão social e CNPJ de 14 caracteres) foram preenchidos corretamente. Se não, exibe um diálogo de erro. Caso contrário, atualiza o cliente selecionado na tabela com os novos dados, realiza a atualização no banco de dados via o método atualizar da classe dao, e, em caso de sucesso, exibe um diálogo informativo.<h5>
-</body
-
->
+</body>
 </details>
 
 <details>
@@ -267,18 +285,16 @@ Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços 
 # Projeto 3 - 2º semestre de 2022
 ## Empresa parceira:
 IACIT
-
 <p align="center"><img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-1/GIT/cabecario%20(3).jpg" height="300"/>
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
 ## Visão do Projeto
-
 Foi desenvolvido um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada dos dados meteorológicos. Além disso, também será possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, fpi desenvolvido tambem níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
-
   <p align="center">
       <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
-<p align="center">                                                                                                                                     
+<p align="center">    
+	
 ## Tecnologias Utilizadas
 <details>
 <summary>Front-End</summary>
@@ -286,7 +302,6 @@ Foi desenvolvido um software web para a empresa Iacit que possibilita a automati
 * [JavaScript](https://www.javascript.com)
 * [HTML](https://www.w3schools.com/css/)
 * [CSS](https://www.w3schools.com/css/)
-
 </details>
 
 <details>
@@ -333,12 +348,9 @@ Neste projeto houve a utilização dos serviços do Spring como API do back-end.
 Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
 A base de dados utilizada foi mantida, utilizando o PostgreSQL.
 
-
-
 ## Contribuições pessoais
 Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Java, com Spring. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. 
-  
- <details>
+<details>
 <summary>Registro e consultas dos dados</summary>
   No Java com Spring, uso o Spring Data JPA para registrar e consultar dados. Ele oferece interfaces de repositório que estendem JpaRepository, proporcionando métodos prontos para operações de dados. <hr>
  <pre><code> @Repository
@@ -355,10 +367,9 @@ public interface EstacaoRepository extends JpaRepository<EstacaoModal, String> {
 <body>
   <h5>A interface "EstacaoRepository" é uma extensão da classe "JpaRepository" que fornece métodos para operações básicas de persistência de dados. Eu implementei consultas personalizadas usando a anotação "@Query" do Spring Data JPA para selecionar instâncias da entidade "estacao" com base em critérios específicos, como o valor do atributo "codWmo" e o nome da estação. Também adicionei um método para listar todas as estações na tabela "estacao" usando uma consulta SQL nativa. No geral, essa interface me ajudou a facilitar o acesso e a manipulação de dados relacionados às estações.</h5>
 </body>
-
- </details>
+</details>
   
- <details>
+<details>
 <summary>Atualização de registros complexos como o Usuario</summary>
   Para atualizar registros complexos, como um usuario, mapeio-os como entidades JPA e uso o Spring Data JPA para atualizá-los. Recupero a entidade, faço as modificações necessárias e salvo as alterações com o método save().
   <pre><code>
@@ -387,10 +398,10 @@ public interface EstacaoRepository extends JpaRepository<EstacaoModal, String> {
 </code></pre>
 <body>
   <h5>Neste código, trato de uma operação de atualização de usuário no sistema. Recebo um objeto `UsuarioRequestDTO` contendo os dados atualizados do usuário e utilizo os repositórios para buscar os objetos relacionados. Em seguida, criptografo a senha fornecida pelo usuário. Atualizo as propriedades do usuário com os dados do DTO e salvo o objeto `user` novamente no repositório. Por fim, configuro um objeto `ModelAndView` com o usuário atualizado e o retorno para a view "HfefCadUsuario", indicando que a atualização foi realizada com sucesso.</h5>
-</body>
- </details>  
+</body> 
+</details>  
    
- <details>
+<details>
 <summary>Disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta</summary>
   Utilizo bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos. Integrando esses gráficos à ferramenta, os disponibilizo aos usuários.
   <pre><code>   
@@ -414,8 +425,9 @@ data: {
 <body>
   <h5>Neste código, eu utilizei a biblioteca Chart.js para criar um gráfico de linha em um elemento do meu documento HTML. O objetivo era exibir dados de um conjunto de votos, onde cada voto é representado por rótulos e valores. Cada rótulo representa uma categoria e cada valor representa a quantidade de votos correspondente a essa categoria. Para tornar a visualização mais intuitiva, defini a cor de fundo das barras do gráfico utilizando a propriedade `backgroundColor`. Essa configuração me permitiu visualizar os dados de forma mais clara, identificando facilmente as diferentes categorias através das cores. No exemplo que eu forneci, pude exibir seis categorias distintas juntamente com as suas respectivas quantidades de votos.</h5>
 </body>
- </details>
- <details>
+</details>
+ 
+<details>
  <summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
   Com Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, crio relatórios em PDF, Excel, CSV, entre outros. Esses relatórios são acessíveis por links ou botões nas telas da aplicação.
 <pre><code>
@@ -436,16 +448,14 @@ data: {
             Font headFont = FontFactory.getFont(FontFactory.HELVETICA_BOLD, 14, BaseColor.WHITE);
 
             PdfPCell hcell;
- </code></pre>
- 
+</code></pre>
 <body>
   <h5>Neste código, foi criado um documento PDF usando a biblioteca iText para Java. O documento é configurado com o tamanho da página A4 no formato paisagem (rotacionado) e são definidas as margens. Em seguida, foi criada uma tabela para o relatório usando a classe `PdfPTable`, com duas colunas. O cabeçalho da tabela é definido com a fonte `HELVETICA_BOLD` e tamanho 14. Um objeto `PdfPCell` é criado para armazenar cada célula da tabela.</h5>
 </body>
-
- </details>
+</details>
    
- <details>
- <summary>Criação e recuperação de logs e atualização dos registros de usuários e atas</summary>
+<details>
+<summary>Criação e recuperação de logs e atualização dos registros de usuários e atas</summary>
   Uso bibliotecas de logging, como Log4j ou SLF4J, para criar logs com informações relevantes. Com o Spring Data JPA, recupero registros, faço atualizações e salvo as       alterações nos dados do usuário e atas.
 <pre><code>
 @Service
@@ -470,8 +480,7 @@ public class LogService {
 </h5>
 </body>
 </details>
-   
-   
+      
 Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram nas consultas dos dados e disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta.
 
 ## Aprendizados Efetivos HS
@@ -486,11 +495,9 @@ Embraer
 
 <p align="center"><img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" height="300"/>
 
-
 Embraer, é uma empresa brasileira, fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área. A empresa tem sede no município de São José dos Campos, interior do estado de São Paulo, e possui diversas unidades no Brasil e no exterior, inclusive joint ventures na China e em Portugal.
 
 ## Visão do Projeto
-
 Foi desenvolvido um software web para a empresa Embraer que possibilita encontrar as aeronaves, associadas aos pilotos, pois atualmente, muitos pilotos trabalham como freelancers e não operam apenas uma aeronave/frota, o que dificulta o reconhecimento fácil e simples de determinados equipamentos e versões de software instalados na aeronave. Além disso, os pilotos nem sempre têm acesso rápido a todos os manuais e documentos da aeronave, o que prejudica o seu conhecimento sobre ela e suas capacidades.
 
   <p align="center">
@@ -539,7 +546,7 @@ A base de dados utilizada foi mantida, utilizando o Oracle.
 ## Contribuições pessoais
 Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Java, com Spring. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. 
   
- <details>
+<details>
 <summary>Registro e consultas dos dados</summary>
   No Java com Spring, uso o Spring Data JPA para registrar e consultar dados. Ele oferece interfaces de repositório que estendem JpaRepository, proporcionando métodos prontos para operações de dados. <hr>
  <pre><code> @Repository
@@ -558,10 +565,9 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 <body>
   <h5>Os métodos para operações básicas de persistência de dados. Eu implementei consultas personalizadas usando  Spring Data JPA para selecionar instâncias da entidade "ViewEstatisticaDisponibilidadeEntity" com base em critérios específicos, como o valor do atributo "IdUsuario". Também adicionei um método para listar todos os dados na tabela  usando uma consulta usando o JPA. No geral, o JPA me ajudou a facilitar o acesso e a manipulação de dados relacionados às visualizações.</h5>
 </body>
-
- </details>
+</details>
   
- <details>
+<details>
 <summary>Atualização de registros como o Usuario</summary>
   Para atualizar registros complexos, como um usuario, mapeio-os como entidades JPA e uso o Spring Data JPA para atualizá-los. Recupero a entidade, faço as modificações necessárias e salvo as alterações com o método save().
   <pre><code>
@@ -587,9 +593,9 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 <body>
   <h5>Neste código, trato de uma operação de atualização de usuário no sistema. Recebo um objeto `UsuarioEntity` contendo os dados atualizados do usuário e utilizo os repositórios para buscar os objetos relacionados. Em seguida, criptografo a senha fornecida pelo usuário.</h5>
 </body>
- </details>  
+</details>  
    
- <details>
+<details>
 <summary>Disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta</summary>
   Utilizo bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos. Integrando esses gráficos à ferramenta, os disponibilizo aos usuários.
   <pre><code>   
@@ -605,8 +611,9 @@ c  const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTim
 <body>
   <h5>Neste código, eu utilizei a biblioteca Chart.js para criar um gráfico de linha em um elemento do meu documento HTML. Para tornar a visualização mais intuitiva, defini a cor de fundo das barras do gráfico utilizando a propriedade `backgroundColor`. Essa configuração me permitiu visualizar os dados de forma mais clara, identificando facilmente as diferentes categorias através das cores. No exemplo que eu forneci, pude exibir seis categorias distintas juntamente com as suas respectivas quantidades de votos.</h5>
 </body>
- </details>
- <details>
+</details>
+
+<details>
  <summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
   Com Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, crio relatórios em PDF. Esses relatórios são acessíveis por botões nas telas da aplicação.
 <pre><code>
@@ -639,8 +646,7 @@ c  const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTim
 <body>
   <h5>Neste código, foi criado um documento PDF usando a biblioteca iText para Java. O documento é configurado com o tamanho da página A4 no formato paisagem (rotacionado) e são definidas as margens. Em seguida, foi criada uma tabela para o relatório usando a classe `PdfPTable`, com duas colunas. O cabeçalho da tabela é definido com a fonte `HELVETICA_BOLD` e tamanho 14. Um objeto `PdfPCell` é criado para armazenar cada célula da tabela.</h5>
 </body>
-
- </details>
+</details>
       
    
 Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram nas consultas dos dados e disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta.
