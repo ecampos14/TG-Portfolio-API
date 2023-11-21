@@ -13,9 +13,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 <hr>
 
 # Projeto 1 - 2º semestre de 2021
-
-## Empresa parceira:
-Projeto Interno
+Empresa parceira: Projeto Interno
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88864112/143785694-09c566e8-8911-4b14-8231-77199dcd8079.jpg" height="300"/>
@@ -121,7 +119,7 @@ Atuei em praticamente todas essas frentes, criando diferentes rotas e serviços 
 
 # Projeto 2 - 1º semestre de 2022
 
-## Empresa parceira: DOMROCK
+Empresa parceira: DOMROCK
 
 ![DOMROCK](https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg)
 
@@ -283,15 +281,14 @@ Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços 
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia.
 
 # Projeto 3 - 2º semestre de 2022
-## Empresa parceira:
-IACIT
+Empresa parceira: IACIT
 <p align="center"><img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-1/GIT/cabecario%20(3).jpg" height="300"/>
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
 ## Visão do Projeto
 Foi desenvolvido um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada dos dados meteorológicos. Além disso, também será possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, fpi desenvolvido tambem níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
-  <p align="center">
+<p align="center">
       <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
 <p align="center">    
 	
@@ -353,7 +350,7 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 <details>
 <summary>Registro e consultas dos dados</summary>
   No Java com Spring, uso o Spring Data JPA para registrar e consultar dados. Ele oferece interfaces de repositório que estendem JpaRepository, proporcionando métodos prontos para operações de dados. <hr>
- <pre><code> @Repository
+<pre><code> @Repository
 public interface EstacaoRepository extends JpaRepository<EstacaoModal, String> {
 	@Query("SELECT u FROM estacao u WHERE u.codWmo = :codWmo")
 	public List<EstacaoModal> listar(@Param("codWmo") String codWmo);
@@ -372,7 +369,7 @@ public interface EstacaoRepository extends JpaRepository<EstacaoModal, String> {
 <details>
 <summary>Atualização de registros complexos como o Usuario</summary>
   Para atualizar registros complexos, como um usuario, mapeio-os como entidades JPA e uso o Spring Data JPA para atualizá-los. Recupero a entidade, faço as modificações necessárias e salvo as alterações com o método save().
-  <pre><code>
+<pre><code>
   public ModelAndView execute(UsuarioRequestDTO data) {
     ModelAndView modelAndView = new ModelAndView();
     UsuarioModal userAdmin = usuarioRepository.findByUsuarioUsername(data.getUsuario_nome_adm());   
@@ -404,7 +401,7 @@ public interface EstacaoRepository extends JpaRepository<EstacaoModal, String> {
 <details>
 <summary>Disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta</summary>
   Utilizo bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos. Integrando esses gráficos à ferramenta, os disponibilizo aos usuários.
-  <pre><code>   
+<pre><code>   
 const ctx1 = document.getElementById('graficoUmidade1').getContext('2d');
 const myChart1 = new Chart(ctx1, {
 type: 'line',            
@@ -428,7 +425,7 @@ data: {
 </details>
  
 <details>
- <summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
+<summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
   Com Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, crio relatórios em PDF, Excel, CSV, entre outros. Esses relatórios são acessíveis por links ou botões nas telas da aplicação.
 <pre><code>
     public static ByteArrayInputStream exportarPdfPrecipitacao (List<ViewPrecipitacaoModal> viewPrecipitacaoModals) throws IOException {
@@ -490,8 +487,7 @@ Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços 
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
 
 # Projeto 4 - 1º semestre de 2023
-## Empresa parceira:
-Embraer
+Empresa parceira: Embraer
 
 <p align="center"><img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" height="300"/>
 
@@ -570,7 +566,7 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 <details>
 <summary>Atualização de registros como o Usuario</summary>
   Para atualizar registros complexos, como um usuario, mapeio-os como entidades JPA e uso o Spring Data JPA para atualizá-los. Recupero a entidade, faço as modificações necessárias e salvo as alterações com o método save().
-  <pre><code>
+<pre><code>
    //@PreAuthorize("hasRole('ADMIN')")
 		public UsuarioEntity atualizarUsuario(Integer idUsuario, UsuarioDTO usuarioNovo) {
 		    Optional<UsuarioEntity> optionalUsuario = usuarioRepository.findById(idUsuario);
@@ -598,8 +594,8 @@ Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi
 <details>
 <summary>Disponibilização de documentos em diferentes formatos de grafico na nossa ferramenta</summary>
   Utilizo bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos. Integrando esses gráficos à ferramenta, os disponibilizo aos usuários.
-  <pre><code>   
-c  const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString()}`;
+<pre><code>   
+const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString()}`;
         const imgData = "https://cdn.discordapp.com/attachments/1075971608684023814/1111350679022346260/logo-dois.png";
 
         const titleWidth = doc.getStringUnitWidth(title) * doc.internal.getFontSize() / doc.internal.scaleFactor;
@@ -614,7 +610,7 @@ c  const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTim
 </details>
 
 <details>
- <summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
+<summary>Disponibilização de relatorio em todas as telas da aplicação</summary>
   Com Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, crio relatórios em PDF. Esses relatórios são acessíveis por botões nas telas da aplicação.
 <pre><code>
 	public static ByteArrayInputStream exportarPdfConsulta (List<ViewListarLogicaEntity> viewsample) throws IOException {
@@ -642,9 +638,8 @@ c  const dateTime = `${new Date().toLocaleDateString()} ${new Date().toLocaleTim
 			hcell.setHorizontalAlignment(Element.ALIGN_CENTER);
 			table.addCell(hcell);
  </code></pre>
- 
 <body>
-  <h5>Neste código, foi criado um documento PDF usando a biblioteca iText para Java. O documento é configurado com o tamanho da página A4 no formato paisagem (rotacionado) e são definidas as margens. Em seguida, foi criada uma tabela para o relatório usando a classe `PdfPTable`, com duas colunas. O cabeçalho da tabela é definido com a fonte `HELVETICA_BOLD` e tamanho 14. Um objeto `PdfPCell` é criado para armazenar cada célula da tabela.</h5>
+<h5>Neste código, foi criado um documento PDF usando a biblioteca iText para Java. O documento é configurado com o tamanho da página A4 no formato paisagem (rotacionado) e são definidas as margens. Em seguida, foi criada uma tabela para o relatório usando a classe `PdfPTable`, com duas colunas. O cabeçalho da tabela é definido com a fonte `HELVETICA_BOLD` e tamanho 14. Um objeto `PdfPCell` é criado para armazenar cada célula da tabela.</h5>
 </body>
 </details>
       
