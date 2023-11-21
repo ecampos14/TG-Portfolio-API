@@ -12,20 +12,24 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 <p align="center">• <a href="https://www.linkedin.com/in/ecampos14/">LinkedIn</a> • <a href="https://github.com/ecampos14">GitHub</a> •</p>
 <hr>
 
+Claro, aqui está o texto formatado:
+
 # Projeto 1 - 2º semestre de 2021
+
 ## Empresa parceira:
 Projeto Interno
 
-<p align="center"><img src="https://user-images.githubusercontent.com/88864112/143785694-09c566e8-8911-4b14-8231-77199dcd8079.jpg" height="300"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88864112/143785694-09c566e8-8911-4b14-8231-77199dcd8079.jpg" height="300"/>
 
 A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março de 2006, é uma Faculdade Pública Estadual e todos os cursos oferecidos são gratuitos.
 
 ## Visão do Projeto
 Foi desenvolvido um projeto desktop, usando a linguagem de programação Python, para coletar, tratar e visualizar dados da COVID-19 no estado de São Paulo. O protótipo buscava fornecer informações detalhadas sobre a situação da pandemia por meio de várias visualizações de dados contextuais. A principal ênfase foi na manipulação offline de dados no formato CSV, minimizando a dependência de APIs prontas e relatórios de sites governamentais.
 
-  <p align="center">
-      <img src="https://raw.githubusercontent.com/ecampos14/TG-Portfolio-API/main/1°SEM/Obtos%20por%20municipio.PNG" width="100%" height="100%">
-<p align="center">  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ecampos14/TG-Portfolio-API/main/1°SEM/Obtos%20por%20municipio.PNG" width="100%" height="100%">
+
 ## Tecnologias Utilizadas
 
 <details>
@@ -54,12 +58,13 @@ Foi desenvolvido um projeto desktop, usando a linguagem de programação Python,
 </details>
 
 ## Contribuições pessoais
-Nesse Projeto atuei como Master e no desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Python. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time. 
-  
- <details>
+Nesse Projeto atuei como Master e no desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Python. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time.
+
+<details>
 <summary>Atualização do csv</summary>
-  No Python, foi feito a função qual mantinha a fonte de dados do csv, atualizada. <hr>
- <pre><code> 
+No Python, foi feita a função que mantinha a fonte de dados do csv atualizada.
+<hr>
+<pre><code> 
 th = os.path.expanduser('~\Documents\caso_full.csv.gz')
 output = os.path.expanduser('~\Documents\caso_full.csv')
 
@@ -70,7 +75,7 @@ def atualizar():
 
     with open(path, 'wb') as f:
         f.write(r.content)
-        print("Download do arquivo concluido.")
+        print("Download do arquivo concluído.")
         """Após o download do arquivo, salva na pasta documentos"""
 
     with gzip.open(path, 'rb') as f_in:
@@ -82,208 +87,182 @@ def atualizar():
 <body>
   <h5>Esta função baixa um arquivo comprimido relacionado à COVID-19, o salva localmente, e em seguida, realiza a extração desse arquivo comprimido. O código parece depender de bibliotecas externas como requests, gzip e shutil</h5>
 </body>
+</details>
 
- </details>
-  
- <details>
+<details>
 <summary>Tratamento de dados com pandas </summary>
-  Foi trabalhando com dados temporais, criando novas variáveis e realizando operações de filtragem e agregação no DataFrame pandas. 
-   <pre><code>   
-    df = df.drop_duplicates()  # retira valores duplicados.
-    df['data'] = pd.to_datetime(df['data'])  # cria uma coluna de data
-    df['ano'] = pd.DatetimeIndex(df['data']).year  # cria uma coluna de ano
-    df['mes'] = pd.DatetimeIndex(df['data']).month  # cria uma coluna de mes
-    df['mes_nome'] = df['data'].dt.strftime('%B')  # transforma o numero da coluna 'mes' para nome do mes
-    df['mes_ano'] = df['mes_nome'].astype(str) + "-" + df['ano'].astype(str)  # concatena mes e ano
-    df['dia'] = pd.DatetimeIndex(df['data']).day
-    df['chave'] = df['cidade'] + df['mes_nome'] + df['ano'].astype(str)
+Foi trabalhando com dados temporais, criando novas variáveis e realizando operações de filtragem e agregação no DataFrame pandas.
+<pre><code>   
+df = df.drop_duplicates()  # retira valores duplicados.
+df['data'] = pd.to_datetime(df['data'])  # cria uma coluna de data
+df['ano'] = pd.DatetimeIndex(df['data']).year  # cria uma coluna de ano
+df['mes'] = pd.DatetimeIndex(df['data']).month  # cria uma coluna de mes
+df['mes_nome'] = df['data'].dt.strftime('%B')  # transforma o numero da coluna 'mes' para nome do mes
+df['mes_ano'] = df['mes_nome'].astype(str) + "-" + df['ano'].astype(str)  # concatena mes e ano
+df['dia'] = pd.DatetimeIndex(df['data']).day
+df['chave'] = df['cidade'] + df['mes_nome'] + df['ano'].astype(str)
 
-    '''Variáveis'''
+'''Variáveis'''
 
-    dia_1 = date.today() - timedelta(days=1)
-    dia_1.strftime("%Y-%m-%d")
+dia_1 = date.today() - timedelta(days=1)
+dia_1.strftime("%Y-%m-%d")
 
-    total_mortes_sp = df['mortes'].loc[df['estado'] == 'SP'].loc[
-        df['data'] == str(dia_1)].sum()  
+total_mortes_sp = df['mortes'].loc[df['estado'] == 'SP'].loc[
+    df['data'] == str(dia_1)].sum()  
 <body>
   <h5> O código manipula um DataFrame, adicionando colunas relacionadas a datas e cidades. Em seguida, calcula o total de mortes em São Paulo na data de ontem. Essas operações são úteis para análises temporais e agregações específicas em conjuntos de dados</h5>
 </body>
- </details>
- 
+</details>
+
 Atuei em praticamente todas essas frentes, criando diferentes rotas e serviços para implementar funcionalidades no sistema. Minhas principais contribuições foram nas consultas de dados, tratamento e atualização de arquivos. No entanto, destaco meu papel principal nas tarefas de gestão, na parte organizacional do projeto.
+
 ## Aprendizados Efetivos HS
 - Desenvolvimento de serviços update: Sei fazer com autonomia; <br/>
-- tratamento de dados, utilizando pandas: Sei fazer com autonomia; <br/>
+- Tratamento de dados, utilizando pandas: Sei fazer com autonomia; <br/>
 - Criação da documentação e organização do projeto: Sei fazer com autonomia; <br/>
 
 # Projeto 2 - 1º semestre de 2022
-## Empresa parceira:
-DOMROCK
 
-<p align="center"><img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg" height="300"/>
+## Empresa parceira: DOMROCK
 
+![DOMROCK](https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg)
 
-DOMROCK é uma empresa brasileira com sede em São José dos Campos - SP. localizada no Parque tecnologico, trabalha com tramento e atualizações de dados em grandes escalas. 
+A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, localizada no Parque Tecnológico. Ela atua no tratamento e atualizações de dados em grande escala.
 
 ## Visão do Projeto
 
 Uma aplicação desktop foi desenvolvida como solução para a gestão de ativação do cliente na plataforma Dom Rock. A empresa buscava uma solução orientada à entrada de dados de parâmetros e variáveis específicas de cada cliente, a fim de alocar recursos na plataforma Dom Rock. Essa aplicação também permitia a entrada de dados e a estimativa de consumo de recursos, baseada em critérios como o volume de dados do cliente, quantidade de usuários, entre outros. Além disso, a aplicação tinha a capacidade de gerar relatórios e consultas. Um aspecto crucial do desenvolvimento foi a modelagem apropriada da base de dados, visando futuras integrações com outros sistemas.
 
-#
-  
-  <p align="center">
-      <img src="https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif" width="100%" height="100%">
-<p align="center">                                                                                                                                                  
+![Protótipo](https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif)
+
 ## Tecnologias Utilizadas
-<details>
-<summary>Front-End</summary>
 
-* [JavaFX Scene Builder 3](https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
-</details>
+### Front-End
+- [JavaFX Scene Builder 3](https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
 
-<details>
-<summary>Back-End</summary>
+### Back-End
+- [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
 
-* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+### Banco de Dados
+- [SQL Server Nuvem Azure](https://azure.microsoft.com/pt-br/services/sql-database/campaign/)
 
-</details>
+### Reuniões e Comunicação
+- [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
+- [Whatsapp](https://www.whatsapp.com/)
+- [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
 
-<details>
-<summary>Banco de Dados</summary>
+### Outras Ferramentas
+- [Github](https://github.com/)
+- [Eclipse IDE](https://www.eclipse.org/downloads/)
+- [IntelliJ IDE](https://www.jetbrains.com/idea/promo/?msclkid=6ae44e88c2811d86c0ae2cdbd94ffcfb&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea)
+- [Jira](https://www.atlassian.com/br/software/jira?msclkid=c8e971f7b8f811ec957d13ca3bfc6c1b)
+- [Figma](https://www.figma.com/)
 
-* [SQL Server Nuvem Azure](https://azure.microsoft.com/pt-br/services/sql-database/campaign/)
-</details>
-
-<details>
-<summary>Reuniões e Comunicação</summary>
-
-* [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
-
-* [Whatsapp](https://www.whatsapp.com/)
-
-* [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
-</details>
-
-<details>
-<summary>Outras Ferramentas</summary>
-
-* [Github](https://github.com/)
-
-* [Eclipse IDE](https://www.eclipse.org/downloads/)
-
-* [IntelliJ IDE](https://www.jetbrains.com/idea/promo/?msclkid=6ae44e88c2811d86c0ae2cdbd94ffcfb&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea)
-
-* [Jira](https://www.atlassian.com/br/software/jira?msclkid=c8e971f7b8f811ec957d13ca3bfc6c1b)
-
-* [Figma](https://www.figma.com/)
-
-</details>
-
-Neste projeto houve a utilização dos serviços do Java no back-end.  foi utilizado em sua construção, no front-end com java utilizando javafx.
-Assim a conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
-A base de dados utilizada foi mantida, utilizando o SQLServer.
+Neste projeto, houve a utilização dos serviços do Java no back-end. Foi utilizado em sua construção, no front-end, o JavaFX utilizando o Scene Builder. A conexão com o banco de dados e a manutenção do banco para alterações foram realizadas por meio de migrations. A base de dados utilizada foi mantida, utilizando o SQL Server.
 
 ## Contribuições pessoais
-Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Java. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. 
-  
- <details>
+Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Java. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend.
+
+<details>
 <summary>Registro e consultas dos dados</summary>
-  No Java, foi feito o registro dos clientes, podendo associar eles a cada nivel do produto, divido em escopo, bronze, silver e gold . <hr>
- <pre><code> 
-	 public class EscopoDAO {
-	Connection con;
-	PreparedStatement stm;
-	ResultSet rs;
+No Java, foi feito o registro dos clientes, podendo associá-los a cada nível do produto, dividido em escopo, bronze, silver e gold.
+<hr>
+<pre><code> 
+public class EscopoDAO {
+    Connection con;
+    PreparedStatement stm;
+    ResultSet rs;
 
-	public EscopoDTO consultaId(String cnpj) {
-		try (Connection con = new ConnectionFactory().conectaBD()) {
-			EscopoDTO objescopoDTO = new EscopoDTO();
-			stm = con.prepareStatement("Select * from Cliente where cnpj = ?");
-			stm.setString(1, cnpj);
-			rs = stm.executeQuery();
+    public EscopoDTO consultaId(String cnpj) {
+        try (Connection con = new ConnectionFactory().conectaBD()) {
+            EscopoDTO objescopoDTO = new EscopoDTO();
+            stm = con.prepareStatement("Select * from Cliente where cnpj = ?");
+            stm.setString(1, cnpj);
+            rs = stm.executeQuery();
 
-			if (rs.next()) {
-				objescopoDTO.setCnpj(rs.getString("cnpj"));
-				objescopoDTO.setRazaoSocial(rs.getString("razao_social"));
-				objescopoDTO.setIdCliente(rs.getString("id_cliente"));
-				return objescopoDTO;
-			} else {
-				return null;
-			}
+            if (rs.next()) {
+                objescopoDTO.setCnpj(rs.getString("cnpj"));
+                objescopoDTO.setRazaoSocial(rs.getString("razao_social"));
+                objescopoDTO.setIdCliente(rs.getString("id_cliente"));
+                return objescopoDTO;
+            } else {
+                return null;
+            }
 
-		} catch (SQLException ex) {
-			return null;
-		}
-	}
+        } catch (SQLException ex) {
+            return null;
+        }
+    }
 </code></pre>
 <body>
-  <h5>O trecho Java pertence à classe EscopoDAO e inclui o método consultaId. Este método realiza consultas no banco de dados para obter informações de clientes com base no CNPJ fornecido. Utiliza boas práticas, como parametrização para prevenir injeção de SQL, e emprega o "try-with-resources" para garantir o fechamento adequado de recursos, como conexões.</h5>
+    <h5>O trecho Java pertence à classe EscopoDAO e inclui o método consultaId. Este método realiza consultas no banco de dados para obter informações de clientes com base no CNPJ fornecido. Utiliza boas práticas, como parametrização para prevenir injeção de SQL, e emprega o "try-with-resources" para garantir o fechamento adequado de recursos, como conexões.</h5>
 </body>
+</details>
 
- </details>
-  
- <details>
+<details>
 <summary>Atualização de registros de clientes</summary>
-  Para atualizar registros complexos, como um clientes, foi criado metodo no controller, que possibilita a atualização dos dados de um cliente ja existente no banco de dados. 
-  <pre><code>
-  @FXML
-	void btn_att_salvar() {
-		if(txt_att_razao_social.getText().equals("") || txt_att_cnpj.getLength() != 14) {
-			exibiDialogoERRO("ERRO! Por favor, insira todos os campos corretamente.");
-		}else {
-			clienteSelecionado = table_cliente.getSelectionModel().getSelectedItem();
-	
-			clienteSelecionado.setCnpj(txt_att_cnpj.getText());
-			clienteSelecionado.setRazao_social(txt_att_razao_social.getText());
-			String segmento = box_att_segmento.getSelectionModel().getSelectedItem().toString();
-			clienteSelecionado.setSegmento(segmento);
-			try {
-				dao.atualizar(clienteSelecionado);
-				exibiDialogoINFO("Cliente ATUALIZADO com sucesso!");
-				abas.getSelectionModel().select(consultar);
-				btn_consulta_cnpj();
-				atualizar.setDisable(true);
-			} catch (Exception e) {
-				exibiDialogoERRO("ERRO! Falha ao ATUALIZAR.");
-	
-			}
-		}
-	}
+Para atualizar registros complexos, como clientes, foi criado método no controller que possibilita a atualização dos dados de um cliente já existente no banco de dados.
+<pre><code>
+@FXML
+void btn_att_salvar() {
+    if(txt_att_razao_social.getText().equals("") || txt_att_cnpj.getLength() != 14) {
+        exibiDialogoERRO("ERRO! Por favor, insira todos os campos corretamente.");
+    } else {
+        clienteSelecionado = table_cliente.getSelectionModel().getSelectedItem();
+
+        clienteSelecionado.setCnpj(txt_att_cnpj.getText());
+        clienteSelecionado.setRazao_social(txt_att_razao_social.getText());
+        String segmento = box_att_segmento.getSelectionModel().getSelectedItem().toString();
+        clienteSelecionado.setSegmento(segmento);
+        try {
+            dao.atualizar(clienteSelecionado);
+            exibiDialogoINFO("Cliente ATUALIZADO com sucesso!");
+            abas.getSelectionModel().select(consultar);
+            btn_consulta_cnpj();
+            atualizar.setDisable(true);
+        } catch (Exception e) {
+            exibiDialogoERRO("ERRO! Falha ao ATUALIZAR.");
+
+        }
+    }
+}
 </code></pre>
 <body>
-  <h5>O método btn_att_salvar trata da lógica de atualização de informações de um cliente em uma aplicação JavaFX. Ele verifica se os campos obrigatórios (razão social e CNPJ de 14 caracteres) foram preenchidos corretamente. Se não, exibe um diálogo de erro. Caso contrário, atualiza o cliente selecionado na tabela com os novos dados, realiza a atualização no banco de dados via o método atualizar da classe dao, e, em caso de sucesso, exibe um diálogo informativo.<h5>
-</body>
- </details>  
-   
- <details>
-<summary>Disponibilização de tabelas </summary>
-  Foi utilizado o javafx para a criação visual da tabela, usando o java para a população dos dados na tabrla bronze. 
-  <pre><code>   
-    List<BronzeDTO> ativacaoDTOs = new ArrayList<BronzeDTO>();
-		produtoAtivacaoObservableList = FXCollections.observableList(ativacaoDTOs);
+    <h5>O método btn_att_salvar trata da lógica de atualização de informações de um cliente em uma aplicação JavaFX. Ele verifica se os campos obrigatórios (razão social e CNPJ de 14 caracteres) foram preenchidos corretamente. Se não, exibe um diálogo de erro. Caso contrário, atualiza o cliente selecionado na tabela com os novos dados, realiza a atualização no banco de dados via o método atualizar da classe dao, e, em caso de sucesso, exibe um diálogo informativo.<h5>
+</body
 
-		colfontedadoBronze.setCellValueFactory(new PropertyValueFactory<SilverDTO, String>("idFonteDado"));
-		colProduto.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("nomeProduto"));
-		colFormato.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("formato"));
-		colSistema.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("sistema"));
-		colFrequencia.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("frequencia"));
-		colOrigem.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("origenDado"));
-		colVolume.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("volume"));
+>
+</details>
 
-		tabelaBronze.setItems(produtoAtivacaoObservableList);
-        </code></pre>
+<details>
+<summary>Disponibilização de tabelas</summary>
+Foi utilizado o JavaFX para a criação visual da tabela, usando o Java para a população dos dados na tabela bronze.
+<pre><code>   
+List<BronzeDTO> ativacaoDTOs = new ArrayList<BronzeDTO>();
+produtoAtivacaoObservableList = FXCollections.observableList(ativacaoDTOs);
+
+colfontedadoBronze.setCellValueFactory(new PropertyValueFactory<SilverDTO, String>("idFonteDado"));
+colProduto.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("nomeProduto"));
+colFormato.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("formato"));
+colSistema.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("sistema"));
+colFrequencia.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("frequencia"));
+colOrigem.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("origenDado"));
+colVolume.setCellValueFactory(new PropertyValueFactory<BronzeDTO, String>("volume"));
+
+tabelaBronze.setItems(produtoAtivacaoObservableList);
+</code></pre>
 <body>
-  <h5> O código apresenta a inicialização e configuração de uma tabela JavaFX associada a objetos do tipo BronzeDTO. Primeiro, uma lista observável (produtoAtivacaoObservableList) é criada a partir de uma lista vazia de objetos BronzeDTO. Em seguida, as colunas da tabela são vinculadas aos atributos correspondentes da classe BronzeDTO usando PropertyValueFactory. Cada coluna representa um atributo específico.</h5>
+    <h5>O código apresenta a inicialização e configuração de uma tabela JavaFX associada a objetos do tipo BronzeDTO. Primeiro, uma lista observável (produtoAtivacaoObservableList) é criada a partir de uma lista vazia de objetos BronzeDTO. Em seguida, as colunas da tabela são vinculadas aos atributos correspondentes da classe BronzeDTO usando PropertyValueFactory. Cada coluna representa um atributo específico.</h5>
 </body>
- </details>
- 
-Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram nas consultas dos dados, criação do crud da tela de bronze e silver, disponibilização de dados em diferentes formatos de tabelas na nossa ferramenta.
+</details>
+
+Atuei em praticamente todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contribuições foram nas consultas dos dados, criação do CRUD da tela de bronze e silver, disponibilização de dados em diferentes formatos de tabelas na nossa ferramenta.
 
 ## Aprendizados Efetivos HS
-- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
-- Desenvolvimento de aplicação desktops usando java: Sei fazer com autonomia; <br/>
-- Desenvolvimento de tabelas em javafx: Sei fazer com autonomia; <br/>
-- Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia.
+- Desenvolvimento de aplicações desktop usando Java: Sei fazer com autonomia.
+- Desenvolvimento de tabelas em JavaFX: Sei fazer com autonomia.
+- Utilização de ORM's com banco relacional: Sei fazer com autonomia.
 
 # Projeto 3 - 2º semestre de 2022
 ## Empresa parceira:
