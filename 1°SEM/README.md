@@ -256,6 +256,7 @@ A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, local
 #
 
 <p align="center"> <a href="https://github.com/ecampos14/Dom_Rock">Repositorio do Projeto</p>  
+
 ---
 
 ## <a name="3º-semestre"></a> 3º Semestre • 2/2022
@@ -385,20 +386,80 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 
 #
 
-<p align="center"> <a href="https://github.com/ecampos14/Dom_Rock">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/Iacit">Repositorio do Projeto</p>  
   
 ---
 
-## <a name="4º-semestre"></a> 4º Semestre
+## <a name="4º-semestre"></a> 4º Semestre • 1/2023
+Empresa parceira: Embraer
+
+<p align="center"><img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" height="300"/>
+
+<p align="justify">Embraer é uma empresa brasileira, fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área. A empresa tem sede no município de São José dos Campos, interior do estado de São Paulo, e possui diversas unidades no Brasil e no exterior, inclusive joint ventures na China e em Portugal.</p>
 
 ### Visão do Projeto
-- [Descrição da visão geral do projeto para o segundo semestre.]
+<p align="justify">Um software web foi desenvolvido para a empresa Embraer, permitindo encontrar as aeronaves associadas aos pilotos. Isso se tornou necessário devido ao fato de muitos pilotos trabalharem como freelancers e não operarem apenas uma aeronave/frota, o que dificultava o reconhecimento fácil e simples de determinados equipamentos e versões de software instalados na aeronave. Além disso, os pilotos nem sempre tinham acesso rápido a todos os manuais e documentos da aeronave, o que prejudicava o seu conhecimento sobre ela e suas capacidades.</p>
+
+  <p align="center">
+      <img src=https://raw.githubusercontent.com/octopusBD/apiEmbraer4-sem/Sprint-4/Imagens%20documentacao/doc/gifSprint4.gif width="100%" height="100%">
+<p align="center">      
+
 
 ### Tecnologias adotadas na solução
-- [Lista das tecnologias específicas escolhidas para o projeto durante o segundo semestre.]
+<details>
+<summary>Front-End</summary>
+
+* [vue](https://vuejs.org/)
+* [HTML](https://www.w3schools.com/css/)
+* [CSS](https://www.w3schools.com/css/)
+
+</details>
+
+<details>
+<summary>Back-End</summary>
+
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+
+* [Spring boot](https://spring.io/projects/spring-boot)
+
+</details>
+
+<details>
+<summary>Database</summary>
+
+* [Oracle Autonomous Database](https://www.oracle.com/autonomous-database/)
+</details>
+
+<details>
+<summary>Outras Ferramentas</summary>
+
+* [Discord](https://discord.com/?msclkid=b4f5af84b8f811ecbd81c127a0ae68a7)
+
+* [Whatsapp](https://www.whatsapp.com/)
+
+* [Slack](https://slack.com/intl/pt-br/?msclkid=c00e628eb8f811ecaef374bb86d7f056)
+</details>
 
 ### Contribuições pessoais
-- [Destaque das próprias contribuições para o projeto durante o segundo semestre.]
+<p align="justify">Neste projeto, minhas contribuições foram significativas em diversas áreas do backend, utilizando Java com Spring, e algumas ajudas pontuais quando necessario no frontend, com Javascript e Vue.js. Aqui estão algumas das minhas contribuições:</p>
+
+#### Registro e Consultas dos Dados:
+- <p align="justify">Realizei consultas por filtro utilizando o JPA para buscar dados específicos.</p>
+- <p align="justify">Utilizei o Spring Data JPA para implementar métodos personalizados de consulta específicas para filtrar dados com base em critérios definidos.</p>
+
+#### Atualização de Registros dos Chassi e Boletins:
+- <p align="justify">Realizei a atualização de chachi e dados relacionados aos aviões, utilizando o CRUD em Java.</p>
+- <p align="justify">Mapeei as entidades JPA e utilizei o Spring Data JPA para atualizar os registros no banco de dados.</p>
+
+#### Disponibilização em Formatos de Gráficos:
+- <p align="justify">Utilizei o Vue.js para verificar dados estáticos dos aviões e o que cada avião possui.</p>
+- <p align="justify">Integrando esses gráficos à ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
+
+#### Lógica de Geração de Item
+- <p align="justify">Implementou-se uma lógica para gerar itens com base em uma fórmula fornecida, utilizando o Spring Data JPA e outras bibliotecas relacionadas.</p>
+- <p align="justify">Os itens são processados e gerados a partir de uma lista de amostras e fórmulas obtidas dos repositórios Spring Data JPA.</p>
+
+<p align="justify">Minhas contribuições abrangeram desde a manipulação de dados até a disponibilização de funcionalidades essenciais para os usuários.</p>
 
 ### Aprendizados Efetivos Hard Skills
 - [Principais aprendizados obtidos durante o segundo semestre, focando em habilidades técnicas (hard skills).]
@@ -416,7 +477,49 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 - [Destaque das próprias contribuições para o projeto durante o segundo semestre.]
 
 ### Aprendizados Efetivos Hard Skills
-- [Principais aprendizados obtidos durante o segundo semestre, focando em habilidades técnicas (hard skills).]
+<table>
+  <tr>
+    <th width="300px">Tecnologia/Metodologia</th>
+    <th width="300px">Classificação</th>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>SpringBoot</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>Vue.jss</td>
+    <td>★★★☆☆☆☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>SQL</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+ 
+</table>
+
+### Soft Skills
+<p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
+
+#### Resiliência:
+- <p align="justify">Enfrentei diversos desafios ao longo do projeto, como problemas técnicos, prazos apertados e mudanças de requisitos.</p>
+- <p align="justify">Mantive a calma e a determinação para encontrar soluções eficazes, mesmo diante de obstáculos significativos.</p>
+
+#### Organização:
+- <p align="justify">Lidar com múltiplas tarefas e demandas exigia uma abordagem organizada.</p>
+- <p align="justify">Mantive a estrutura organizada do código-fonte no backend, seguindo padrões e boas práticas de desenvolvimento.</p>
+- <p align="justify">Coordenei eficientemente as tarefas da equipe, priorizando as demandas e garantindo a fluidez do desenvolvimento.</p>
+
+#### Gestão de Tempo:
+- <p align="justify">Gerenciei o tempo dedicado ao desenvolvimento de features do backend, priorizando as atividades de acordo com a urgência e importância.</p>
+- <p align="justify">Cumprimos os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
+
+#
+
+<p align="center"> <a href="https://github.com/ecampos14/Iacit">Repositorio do Projeto</p>  
 ---
 
 ## <a name="6º-semestre"></a> 6º Semestre
