@@ -325,21 +325,21 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 <p align="justify">Nesse projeto, atuei no desenvolvimento de features e estruturas do backend da ferramenta, utilizando Java com Spring. Ao longo do desenvolvimento, enfrentamos diversos desafios que foram superados pelo time do backend. Minhas principais contribuições incluíram:</p>
 
 #### Registro e Consultas dos Dados:
-<p align="justify">Utilizei o Spring Data JPA para implementar o EstacaoRepository, que estende JpaRepository, facilitando operações de registro e consulta de dados.</p>
-<p align="justify">Implementei consultas personalizadas utilizando a anotação @Query para selecionar instâncias da entidade "estacao" com base em critérios específicos.</p>
-<p align="justify">Adicionei métodos para listar todas as estações na tabela "estacao" e encontrar uma estação pelo nome.</p>
+- <p align="justify">Utilizei o Spring Data JPA para implementar o EstacaoRepository, que estende JpaRepository, facilitando operações de registro e consulta de dados.</p>
+- <p align="justify">Implementei consultas personalizadas utilizando a anotação @Query para selecionar instâncias da entidade "estacao" com base em critérios específicos.</p>
+- <p align="justify">Adicionei métodos para listar todas as estações na tabela "estacao" e encontrar uma estação pelo nome.</p>
 
 #### Atualização de Registros Complexos como o Usuário:
-<p align="justify">Desenvolvi a lógica para atualizar registros complexos, como usuários, mapeando-os como entidades JPA e utilizando o Spring Data JPA.</p>
-<p align="justify">Recuperei a entidade, realizei as modificações necessárias e salvei as alterações com o método save().</p>
+- <p align="justify">Desenvolvi a lógica para atualizar registros complexos, como usuários, mapeando-os como entidades JPA e utilizando o Spring Data JPA.</p>
+- <p align="justify">Recuperei a entidade, realizei as modificações necessárias e salvei as alterações com o método save().</p>
 
 #### Disponibilização de Documentos em Diferentes Formatos de Gráfico na Ferramenta:
-<p align="justify">Utilizei bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos.</p>
-<p align="justify">Integrando esses gráficos à ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
+- <p align="justify">Utilizei bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos.</p>
+- <p align="justify">Integrando esses gráficos à ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
 
 #### Disponibilização de Relatórios em Todas as Telas da Aplicação:
-<p align="justify">Utilizei Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, para criar relatórios em PDF, Excel, CSV, entre outros.</p>
-<p align="justify">Os relatórios foram acessíveis por links ou botões nas telas da aplicação, fornecendo aos usuários informações detalhadas e organizadas.</p>
+- <p align="justify">Utilizei Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, para criar relatórios em PDF, Excel, CSV, entre outros.</p>
+- <p align="justify">Os relatórios foram acessíveis por links ou botões nas telas da aplicação, fornecendo aos usuários informações detalhadas e organizadas.</p>
 
 #### Aprendizados Efetivos HS
 - Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
