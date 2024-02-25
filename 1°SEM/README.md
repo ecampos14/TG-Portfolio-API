@@ -459,10 +459,58 @@ Empresa parceira: Embraer
 - <p align="justify">Implementou-se uma lógica para gerar itens com base em uma fórmula fornecida, utilizando o Spring Data JPA e outras bibliotecas relacionadas.</p>
 - <p align="justify">Os itens são processados e gerados a partir de uma lista de amostras e fórmulas obtidas dos repositórios Spring Data JPA.</p>
 
+
 <p align="justify">Minhas contribuições abrangeram desde a manipulação de dados até a disponibilização de funcionalidades essenciais para os usuários.</p>
 
+#### Aprendizados Efetivos 
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
+- Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
+- Desenvolvimento de graficos para aplicação usando Vue.js: Sei fazer com autonomia; <br/>
+
 ### Aprendizados Efetivos Hard Skills
-- [Principais aprendizados obtidos durante o segundo semestre, focando em habilidades técnicas (hard skills).]
+<table>
+  <tr>
+    <th width="300px">Tecnologia/Metodologia</th>
+    <th width="300px">Classificação</th>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>SpringBoot</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>Vue.jss</td>
+    <td>★★★☆☆☆☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>SQL</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+ 
+</table>
+
+### Soft Skills
+<p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
+
+#### Cooperação:
+- <p align="justify">Trabalhei em estreita colaboração com os membros da equipe, compartilhando ideias, recursos e responsabilidades para alcançar os objetivos do projeto.</p>
+- <p align="justify">Contribuí ativamente para um ambiente de trabalho colaborativo, onde todos os membros se sentiam valorizados e apoiados.</p>
+
+#### Empatia:
+- <p align="justify">Demonstrei empatia ao compreender as necessidades, preocupações e perspectivas dos outros membros da equipe.</p>
+- <p align="justify">Adotei uma abordagem centrada nas pessoas, buscando entender os desafios individuais de cada membro e oferecendo suporte quando necessário.</p>
+
+#### Gestão de Tempo:
+- <p align="justify">Assumi uma postura proativa ao antecipar problemas potenciais e propor soluções antes que se tornassem obstáculos significativos.</p>
+- <p align="justify">Cumprimos os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
+
+#
+
+<p align="center"> <a href="https://github.com/ecampos14/apiEmbraer4-sem">Repositorio do Projeto</p>  
+    
 ---
 
 ## <a name="5º-semestre"></a> 5º Semestre
@@ -501,25 +549,7 @@ Empresa parceira: Embraer
  
 </table>
 
-### Soft Skills
-<p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
 
-#### Resiliência:
-- <p align="justify">Enfrentei diversos desafios ao longo do projeto, como problemas técnicos, prazos apertados e mudanças de requisitos.</p>
-- <p align="justify">Mantive a calma e a determinação para encontrar soluções eficazes, mesmo diante de obstáculos significativos.</p>
-
-#### Organização:
-- <p align="justify">Lidar com múltiplas tarefas e demandas exigia uma abordagem organizada.</p>
-- <p align="justify">Mantive a estrutura organizada do código-fonte no backend, seguindo padrões e boas práticas de desenvolvimento.</p>
-- <p align="justify">Coordenei eficientemente as tarefas da equipe, priorizando as demandas e garantindo a fluidez do desenvolvimento.</p>
-
-#### Gestão de Tempo:
-- <p align="justify">Gerenciei o tempo dedicado ao desenvolvimento de features do backend, priorizando as atividades de acordo com a urgência e importância.</p>
-- <p align="justify">Cumprimos os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
-
-#
-
-<p align="center"> <a href="https://github.com/ecampos14/Iacit">Repositorio do Projeto</p>  
 ---
 
 ## <a name="6º-semestre"></a> 6º Semestre
