@@ -7,7 +7,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 ## Sobre mim
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/88864112/282265843-d14d801d-c95c-443b-b0ac-4651f9d2d5e2.png" width="20%" style="border-radius: 50%;">
+    <img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/1°SEM/20231103_202541.png" width="20%" style="border-radius: 50%;">
 </p>
 
 <p align="justify"> Atualmente atuando como Analista de QA. Minha jornada na Tecnologia da Informação começou em 2019 na Unifesp, onde inicialmente me dediquei a estudos interdisciplinares em Ciências e Tecnologia. No entanto, optei por migrar para a Fatec, focando especificamente no curso de Banco de Dados. Minha experiência como Analista de QA na Touch Tec desde maio de 2022 tem sido enriquecedora. Durante esse período, aprimorei minhas habilidades em ferramentas como Postman, Confluence, Jira, Cypress, Git e jUnit, além de consolidar minha compreensão das metodologias ágeis, com destaque para o Scrum.</p>
@@ -32,7 +32,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 Empresa parceira: Projeto Interno
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88864112/143785694-09c566e8-8911-4b14-8231-77199dcd8079.jpg" height="300"/>
+  <img src="https://user-images.githubusercontent.com/88864112/143785694-09c566e8-8911-4b14-8231-77199dcd8079.jpg" width="100%"></img></p>
   
 A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março de 2006, é uma Faculdade Pública Estadual e todos os cursos oferecidos são gratuitos.
 
@@ -40,9 +40,7 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 ### Visão do Projeto
 <p align="justify">Um projeto desktop foi desenvolvido usando a linguagem de programação Python para coletar, tratar e visualizar dados da COVID-19 no estado de São Paulo. O protótipo visava fornecer informações detalhadas sobre a situação da pandemia por meio de várias visualizações de dados contextuais. A principal ênfase estava na manipulação offline de dados no formato CSV, minimizando a dependência de APIs prontas e relatórios de sites governamentais.</p>
 
-<p align="center"><img src="https://github.com/heyanaleal/PortfolioBD/blob/1c82b6d5f86b6f6d42a3e4b6f24abee2333af7b9/Imagens/1/1.png" width="100%"></img></p>
-<br>
-<p align="center"><img src="https://github.com/heyanaleal/PortfolioBD/blob/1c82b6d5f86b6f6d42a3e4b6f24abee2333af7b9/Imagens/1/2.png" width="100%"></img></p>
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/1°SEM/CovidTracker.gif" width="100%"></img></p>
 <br>
 
 ### Tecnologias adotadas na solução
@@ -138,14 +136,16 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 ## <a name="2º-semestre"></a> 2º Semestre • 1/2022 
 Empresa parceira: DOMROCK
 
-![DOMROCK](https://github.com/ecampos14/Dom_Rock/blob/main/GIT/cabecario2.jpg)
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/2°SEM/domrock.jpg" width="100%"></img></p>
+<br>
 
 A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, localizada no Parque Tecnológico. Ela atua no tratamento e atualizações de dados em grande escala.
 
 ### Visão do Projeto
 <p align="justify">Uma aplicação desktop foi desenvolvida como solução para a gestão de ativação do cliente na plataforma Dom Rock. A empresa buscava uma solução orientada à entrada de dados de parâmetros e variáveis específicas de cada cliente, a fim de alocar recursos na plataforma Dom Rock. Essa aplicação também permitia a entrada de dados e a estimativa de consumo de recursos, baseada em critérios como o volume de dados do cliente, quantidade de usuários, entre outros. Além disso, a aplicação tinha a capacidade de gerar relatórios e consultas. Um aspecto crucial do desenvolvimento foi a modelagem apropriada da base de dados, visando futuras integrações com outros sistemas.</p>
 
-![Protótipo](https://github.com/ecampos14/Dom_Rock/blob/main/GIT/prototipo.gif)
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/2°SEM/prototipo.gif" width="100%"></img></p>
+<br>
 
 ### Tecnologias adotadas na solução
 <details>
@@ -261,7 +261,7 @@ A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, local
 
 ## <a name="3º-semestre"></a> 3º Semestre • 2/2022
 Empresa parceira: IACIT
-<p align="center"><img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-1/GIT/cabecario%20(3).jpg" height="300"/>
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/3°SEM/iacit.jpg" width="100%" height="100%">
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
@@ -269,7 +269,7 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 <p align="justify">Desenvolveu-se um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada dos dados meteorológicos. Além disso, também é possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, também foram desenvolvidos níveis de usuários juntamente com o painel administrativo, possibilitando a exportação dos relatórios a partir dos dados.</p> 
 
 <p align="center">
-      <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
+      <img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/3°SEM/prototipo-Iacit.gif" width="100%" height="100%">
 <p align="center">    
   
 ### Tecnologias adotadas na solução
@@ -393,7 +393,7 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 ## <a name="4º-semestre"></a> 4º Semestre • 1/2023
 Empresa parceira: Embraer
 
-<p align="center"><img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" height="300"/>
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/4°SEM/Cembraer.png" width="100%" height="100%"><p align="center">    
 
 <p align="justify">Embraer é uma empresa brasileira, fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área. A empresa tem sede no município de São José dos Campos, interior do estado de São Paulo, e possui diversas unidades no Brasil e no exterior, inclusive joint ventures na China e em Portugal.</p>
 
@@ -401,7 +401,7 @@ Empresa parceira: Embraer
 <p align="justify">Um software web foi desenvolvido para a empresa Embraer, permitindo encontrar as aeronaves associadas aos pilotos. Isso se tornou necessário devido ao fato de muitos pilotos trabalharem como freelancers e não operarem apenas uma aeronave/frota, o que dificultava o reconhecimento fácil e simples de determinados equipamentos e versões de software instalados na aeronave. Além disso, os pilotos nem sempre tinham acesso rápido a todos os manuais e documentos da aeronave, o que prejudicava o seu conhecimento sobre ela e suas capacidades.</p>
 
   <p align="center">
-      <img src=https://raw.githubusercontent.com/octopusBD/apiEmbraer4-sem/Sprint-4/Imagens%20documentacao/doc/gifSprint4.gif width="100%" height="100%">
+      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/4°SEM/prototipo-CEmbraer.gif" width="100%" height="100%">
 <p align="center">      
 
 
