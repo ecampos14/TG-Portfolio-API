@@ -566,3 +566,6 @@ Empresa parceira: Embraer
 ### Aprendizados Efetivos Hard Skills
 - [Principais aprendizados obtidos durante o segundo semestre, focando em habilidades técnicas (hard skills).]
 ---
+
+<p align="center">
+  <img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/143786132-3e864e68-39c0-4a9f-9544-0f1dfe8a0bd1.png" width="100%"></img></p>
