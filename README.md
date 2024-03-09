@@ -550,7 +550,27 @@ Empresa parceira: Oracle
 
 
 ### Contribuições pessoais
-- [Destaque das próprias contribuições para o projeto durante o segundo semestre.]
+<p align="justify">Neste projeto, minhas contribuições foram significativas em várias áreas do backend, utilizando Java com Spring. Seguem detalhes das minhas contribuições:</p>
+
+#### Manipulação de Dados:
+- <p align="justify">Implementei o código para inserção de dados via arquivo CSV, utilizando Java e Spring.</p>
+- <p align="justify">Desenvolvi operações CRUD para insumos e fornecedores, garantindo a integridade e a disponibilidade dos dados.</p>
+
+#### Desenvolvimento de Funcionalidades:
+- <p align="justify">Desenvolvi serviços CRUD completos utilizando Spring Boot, proporcionando operações de criação, leitura, atualização e exclusão de recursos de forma eficiente.</p>
+- <p align="justify">Contribuí para o desenvolvimento da logica de estoque e fornecedores da aplicação.</p>
+
+#### Testes Unitários:
+- <p align="justify">Escrevi testes unitários abrangentes para o código backend em Java, utilizando ferramentas como JUnit e Mockito, garantindo a qualidade e a confiabilidade do software.</p>
+- <p align="justify">Participei ativamente na criação e execução de testes de integração para validar a integração entre os diferentes componentes da aplicação.</p>
+
+<p align="justify">Minhas contribuições foram essenciais para garantir a funcionalidade, a qualidade e a confiabilidade do sistema, desde a manipulação de dados até a implementação de funcionalidades críticas.</p>
+
+#### Aprendizados Efetivos 
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
+- Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
+- Desenvolvimento de inserção de dados via arquivo CSV: Sei fazer com autonomia; <br/>
+- Desenvolvimento de teste unitários: Sei fazer com autonomia; <br/>
 
 ### Aprendizados Efetivos Hard Skills
 <table>
@@ -560,15 +580,15 @@ Empresa parceira: Oracle
   </tr>
   <tr>
     <td>Java</td>
-    <td>★★★★★★☆☆☆☆</td>
+    <td>★★★★★★★☆☆☆</td>
   </tr>
   <tr>
     <td>SpringBoot</td>
-    <td>★★★★★★☆☆☆☆</td>
+    <td>★★★★★★★☆☆☆</td>
   </tr>
   <tr>
-    <td>Vue.jss</td>
-    <td>★★★☆☆☆☆☆☆☆</td>
+    <td>Teste unitários</td>
+    <td>★★★★★☆☆☆☆☆</td>
   </tr>
   <tr>
     <td>SQL</td>
@@ -577,6 +597,25 @@ Empresa parceira: Oracle
  
 </table>
 
+
+### Soft Skills
+
+<p align="justify">Durante o desenvolvimento deste projeto, adquiri e fortaleci diversas soft skills que desempenharam um papel fundamental no sucesso da equipe e na conclusão das tarefas. Destaco as seguintes:</p>
+
+#### Visão Geral:
+- <p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas.</p>
+- <p align="justify">Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
+
+#### Organização:
+- <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
+- <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
+
+#### Gestão de Tempo:
+- <p align="justify">Adotei uma abordagem disciplinada para gerenciar meu tempo de forma eficaz, priorizando tarefas de acordo com sua importância e urgência.</p>
+- <p align="justify">Estabeleci metas realistas e utilizei técnicas de planejamento para cumprir prazos e alcançar marcos importantes do projeto de maneira consistente.</p>
+
+
+<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">Repositorio do Projeto</p>  
 
 ---
 
