@@ -1,4 +1,4 @@
-# Portfólio das APIs - Emanuele Campos
+ # Portfólio das APIs - Emanuele Campos
 
 Trabalho de Graduação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs),
 apresentado à Faculdade de Tecnologia de São José dos Campos,
@@ -11,7 +11,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 </p>
 
 <p align="justify"> Atualmente atuando como Analista de QA. Minha jornada na Tecnologia da Informação começou em 2019 na Unifesp, onde inicialmente me dediquei a estudos interdisciplinares em Ciências e Tecnologia. No entanto, optei por migrar para a Fatec, focando especificamente no curso de Banco de Dados. Minha experiência como Analista de QA na Touch Tec desde maio de 2022 tem sido enriquecedora. Durante esse período, aprimorei minhas habilidades em ferramentas como Postman, Confluence, Jira, Cypress, Git e jUnit, além de consolidar minha compreensão das metodologias ágeis, com destaque para o Scrum.</p>
-<p align="justify"> Possuo habilidades técnicas abrangentes, desde a manipulação de bancos de dados como SQL Server, Postgre e Oracle, até a programação em linguagens como Java, SpringBoot, Quarkus, Vue, JavaScript, Node.js, HTML e CSS. Reforcei essas habilidades através de cursos na Udemy, abordando temas essenciais como Python, Java, Desenvolvimento Front-end e Testes Automatizados.</p>
+<p align="justify"> Possuo habilidades técnicas abrangentes, desde a manipulação de bancos de dados como SQL Server, Postgre e Oracle, até a programação em linguagens como Java, SpringBoot, Quarkus, Vue, JavaScript, Node.js. Reforcei essas habilidades através de cursos na Udemy, abordando temas essenciais como Python, Java, Desenvolvimento Front-end e Testes Automatizados.</p>
 <p align="justify">Caso tenha interesse em saber mais sobre minha trajetória profissional e projetos, convido-o a visitar meu perfil no LinkedIn e meu repositório no GitHub.</p>
 
 <p align="center">• <a href="https://www.linkedin.com/in/ecampos14/">LinkedIn</a> • <a href="https://github.com/ecampos14">GitHub</a> •</p>
