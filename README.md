@@ -514,12 +514,40 @@ Empresa parceira: Embraer
 ---
 
 ## <a name="5º-semestre"></a> 5º Semestre
+Empresa parceira: Oracle
+
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/imgOracleFatec_1.jpg"><p align="center">    
+
+<p align="justify">A Oracle Corporation é uma empresa multinacional de tecnologia e informática norte-americana, especializada no desenvolvimento e comercialização de hardware e softwares e de banco de dados.</p>
 
 ### Visão do Projeto
-- [Descrição da visão geral do projeto para o segundo semestre.]
+<p align="justify">Desenvolvemos um sistema web para gerenciamento de restaurantes, onde priorizamos requisitos funcionais e não funcionais. Criamos painéis para controle de fornecedores e insumos, dashboards para monitoramento de inventário e análise de vendas. Implementamos comparadores para avaliar a relação entre clientes, funcionários e estoque, fornecendo insights valiosos para tomada de decisões.</p>
 
 ### Tecnologias adotadas na solução
-- [Lista das tecnologias específicas escolhidas para o projeto durante o segundo semestre.]
+<details>
+<summary>Front-End</summary>
+
+* [vue](https://vuejs.org/)
+* [HTML](https://www.w3schools.com/css/)
+* [CSS](https://www.w3schools.com/css/)
+
+</details>
+
+<details>
+<summary>Back-End</summary>
+
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+
+* [Spring boot](https://spring.io/projects/spring-boot)
+
+</details>
+
+<details>
+<summary>Database</summary>
+
+* [Oracle Autonomous Database](https://www.oracle.com/autonomous-database/)
+</details>
+
 
 ### Contribuições pessoais
 - [Destaque das próprias contribuições para o projeto durante o segundo semestre.]
