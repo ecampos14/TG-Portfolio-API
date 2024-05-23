@@ -70,21 +70,15 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 </details>
 
 ### Contribuições pessoais
-<p align="justify">Nesse Projeto atuei como Master e no desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em Python. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time.</p>
+<p align="justify">Neste projeto, atuei como Master e fui responsável pelo desenvolvimento de várias funcionalidades e pela estrutura do backend. Utilizamos Python para construir o sistema. Durante o desenvolvimento, enfrentei e superei diversos desafios junto com a equipe.</p>
 
-#### Atualização do csv:
-- <p align="justify">Implementei rotinas autônomas para manter a fonte de dados do CSV atualizada;</p>
-- <p align="justify">Garanti que o sistema baixasse e extraísse o arquivo comprimido relacionado à COVID-19 de forma eficiente, utilizando bibliotecas como requests, gzip, e shutil.</p>
+- <p align="justify">Implementei rotinas automáticas para garantir que a fonte de dados do CSV estivesse sempre atualizada, assegurando que o sistema baixasse e extraísse o arquivo comprimido relacionado à COVID-19 de maneira eficiente.</p>
 
-#### Tratamento de dados com pandas:
-- <p align="justify">Manipulei e tratei dados temporais, criando novas variáveis e realizando operações de filtragem e agregação no DataFrame pandas.</p>
-- <p align="justify">Realizei análises específicas, como calcular o total de mortes em São Paulo na data anterior.</p>
+- <p align="justify">Trabalhei com dados temporais, criando novas variáveis e realizando operações de filtragem e agregação no DataFrame pandas.</p>
 
-#### Gestão e Organização do Projeto:
-- <p align="justify">Desempenhei um papel fundamental na gestão e organização do projeto.</p>
 - <p align="justify">Coordenei tarefas, mantive a comunicação eficaz entre os membros da equipe e atualizei e organizei a documentação do projeto.</p>
 
-<p align="justify">Atuei em praticamente todas essas frentes, criando diferentes rotas e serviços para implementar funcionalidades no sistema. Minhas principais contribuições foram nas consultas de dados, tratamento e atualização de arquivos. No entanto, destaco meu papel principal nas tarefas de gestão, na parte organizacional do projeto.</p>
+<p align="justify">Participei ativamente em diversas áreas. Foi meu primeiro contato com Python, o que inicialmente apresentou dificuldades, mas acredito que conseguimos entregar um projeto aceitável. Minhas principais contribuições foram nas consultas de dados, tratamento e atualização de arquivos. Além disso, desempenhei um papel crucial na gestão e organização do projeto, garantindo que tudo funcionasse de maneira harmoniosa e eficiente.</p>
 
 #### Aprendizados Efetivos
 - <p align="justify">Desenvolvimento de serviços update: Sei fazer com autonomia;</p>
