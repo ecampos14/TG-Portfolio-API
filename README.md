@@ -322,15 +322,14 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 </details>
 
 ### Contribuições pessoais
-<p align="justify">Nesse projeto, atuei no desenvolvimento de features e estruturas do backend da ferramenta, utilizando Java com Spring. Ao longo do desenvolvimento, enfrentamos diversos desafios que foram superados pelo time do backend. Minhas principais contribuições incluíram:</p>
+<p align="justify">Nesse projeto, atuei no desenvolvimento de features e estruturas do backend, utilizando Java com Spring. Ao longo do desenvolvimento, enfrentamos diversos desafios que foram superados pelo time do backend. Minhas principais contribuições incluíram:</p>
 
 #### Registro e Consultas dos Dados:
-- <p align="justify">Utilizei o Spring Data JPA para implementar o EstacaoRepository, que estende JpaRepository, facilitando operações de registro e consulta de dados.</p>
+- <p align="justify">Utilizei o Spring Data JPA para implementar operações de registro e consulta de dados.</p>
 - <p align="justify">Implementei consultas personalizadas utilizando a anotação @Query para selecionar instâncias da entidade "estacao" com base em critérios específicos.</p>
-- <p align="justify">Adicionei métodos para listar todas as estações na tabela "estacao" e encontrar uma estação pelo nome.</p>
 
 #### Atualização de Registros Complexos como o Usuário:
-- <p align="justify">Desenvolvi a lógica para atualizar registros complexos, como usuários, mapeando-os como entidades JPA e utilizando o Spring Data JPA.</p>
+- <p align="justify">Desenvolvi a lógica para atualizar registros complexos, como usuários, utilizando o Spring Data JPA.</p>
 - <p align="justify">Recuperei a entidade, realizei as modificações necessárias e salvei as alterações com o método save().</p>
 
 #### Disponibilização de Documentos em Diferentes Formatos de Gráfico na Ferramenta:
@@ -338,8 +337,7 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 - <p align="justify">Integrando esses gráficos à ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
 
 #### Disponibilização de Relatórios em Todas as Telas da Aplicação:
-- <p align="justify">Utilizei Thymeleaf, JSP ou bibliotecas de geração de relatórios, como JasperReports ou Apache POI, para criar relatórios em PDF, Excel, CSV, entre outros.</p>
-- <p align="justify">Os relatórios foram acessíveis por links ou botões nas telas da aplicação, fornecendo aos usuários informações detalhadas e organizadas.</p>
+- <p align="justify">Utilizei bibliotecas de geração de relatórios, como JasperReports ou Apache POI, para criar relatórios em PDF.</p>
 
 #### Aprendizados Efetivos HS
 - Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
@@ -523,6 +521,10 @@ Empresa parceira: Oracle
 ### Visão do Projeto
 <p align="justify">Desenvolvemos um sistema web para gerenciamento de restaurantes, onde priorizamos requisitos funcionais e não funcionais. Criamos painéis para controle de fornecedores e insumos, dashboards para monitoramento de inventário e análise de vendas. Implementamos comparadores para avaliar a relação entre clientes, funcionários e estoque, fornecendo insights valiosos para tomada de decisões.</p>
 
+  <p align="center">
+      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
+<p align="center">   
+
 ### Tecnologias adotadas na solução
 <details>
 <summary>Front-End</summary>
@@ -621,17 +623,119 @@ Empresa parceira: Oracle
 
 ## <a name="6º-semestre"></a> 6º Semestre
 
+Empresa parceira: Imagem
+
+<p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/6°SEM/pandalyzeheader.jpg"><p align="center">    
+
+<p align="justify">A Imagem é uma empresa brasileira de tecnologia líder em Sistemas de Informações Geográficas, distribuidora oficial no Brasil da plataforma ArcGIS, da norte-americana Esri..</p>
+
 ### Visão do Projeto
-- [Descrição da visão geral do projeto para o segundo semestre.]
+<p align="justify">Desenvolvemos uma plataforma que analisa avaliações online. Integramos tecnologias para mapear e visualizar esses sentimentos em contexto geográfico, permitindo que as empresas ajustem estratégias com uma precisão sem precedentes. Fornecendo insights acionáveis ​​para impulsionar a inovação e o crescimento, inaugurando uma nova era de envolvimento do cliente baseado em dados.</p>
+
+  <p align="center">
+      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
+<p align="center">   
 
 ### Tecnologias adotadas na solução
-- [Lista das tecnologias específicas escolhidas para o projeto durante o segundo semestre.]
+<details>
+<summary>Front-End</summary>
+
+* [Vite+React.Js](https://vitejs.dev/guide/)
+* [Mui](https://mui.com/material-ui/getting-started/installation/)
+* [HTML](https://www.w3schools.com/css/)
+* [CSS](https://www.w3schools.com/css/)
+
+</details>
+
+<details>
+<summary>Back-End</summary>
+
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+* [Spring boot](https://spring.io/projects/spring-boot) 
+
+</details>
+
+<details>
+<summary>IA</summary>
+      
+* [Python](https://www.python.org/downloads/)
+* [sklearn.neural_network.MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)
+</details>
+
+<details>
+<summary>Database</summary>
+      
+* [PostgreSQL](https://www.postgresql.org/ftp/pgadmin/pgadmin4/v8.4/windows/)
+</details>
+
 
 ### Contribuições pessoais
-- [Destaque das próprias contribuições para o projeto durante o segundo semestre.]
+<p align="justify">Neste projeto, minhas contribuições foram significativas em várias áreas do backend, utilizando Java com Spring. Seguem detalhes das minhas contribuições:</p>
+
+#### Manipulação de Dados:
+- <p align="justify">Implementei o código para inserção de dados via arquivo CSV, utilizando Java e Spring.</p>
+- <p align="justify">Desenvolvi operações CRUD para insumos e fornecedores, garantindo a integridade e a disponibilidade dos dados.</p>
+
+#### Desenvolvimento de Funcionalidades:
+- <p align="justify">Desenvolvi serviços CRUD completos utilizando Spring Boot, proporcionando operações de criação, leitura, atualização e exclusão de recursos de forma eficiente.</p>
+- <p align="justify">Contribuí para o desenvolvimento da logica de estoque e fornecedores da aplicação.</p>
+
+#### Testes Unitários:
+- <p align="justify">Escrevi testes unitários abrangentes para o código backend em Java, utilizando ferramentas como JUnit e Mockito, garantindo a qualidade e a confiabilidade do software.</p>
+- <p align="justify">Participei ativamente na criação e execução de testes de integração para validar a integração entre os diferentes componentes da aplicação.</p>
+
+<p align="justify">Minhas contribuições foram essenciais para garantir a funcionalidade, a qualidade e a confiabilidade do sistema, desde a manipulação de dados até a implementação de funcionalidades críticas.</p>
+
+#### Aprendizados Efetivos 
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
+- Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
+- Desenvolvimento de inserção de dados via arquivo CSV: Sei fazer com autonomia; <br/>
+- Desenvolvimento de teste unitários: Sei fazer com autonomia; <br/>
 
 ### Aprendizados Efetivos Hard Skills
-- [Principais aprendizados obtidos durante o segundo semestre, focando em habilidades técnicas (hard skills).]
+<table>
+  <tr>
+    <th width="300px">Tecnologia/Metodologia</th>
+    <th width="300px">Classificação</th>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>★★★★★★★☆☆☆</td>
+  </tr>
+  <tr>
+    <td>SpringBoot</td>
+    <td>★★★★★★★☆☆☆</td>
+  </tr>
+  <tr>
+    <td>Teste unitários</td>
+    <td>★★★★★☆☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>SQL</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+ 
+</table>
+
+
+### Soft Skills
+
+<p align="justify">Durante o desenvolvimento deste projeto, adquiri e fortaleci diversas soft skills que desempenharam um papel fundamental no sucesso da equipe e na conclusão das tarefas. Destaco as seguintes:</p>
+
+#### Visão Geral:
+- <p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas.</p>
+- <p align="justify">Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
+
+#### Organização:
+- <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
+- <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
+
+#### Gestão de Tempo:
+- <p align="justify">Adotei uma abordagem disciplinada para gerenciar meu tempo de forma eficaz, priorizando tarefas de acordo com sua importância e urgência.</p>
+- <p align="justify">Estabeleci metas realistas e utilizei técnicas de planejamento para cumprir prazos e alcançar marcos importantes do projeto de maneira consistente.</p>
+
+
+<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">Repositorio do Projeto</p>  
 ---
 
 <p align="center">
