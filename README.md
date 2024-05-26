@@ -93,11 +93,11 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
   </tr>
   <tr>
     <td>Python</td>
-    <td>★★★★☆☆☆☆☆☆</td>
+    <td>★★★★★☆☆☆☆☆</td>
   </tr>
   <tr>
     <td>Pandas</td>
-    <td>★★★☆☆☆☆☆☆☆</td>
+    <td>★★★★★☆☆☆☆☆</td>
   </tr>
   <tr>
     <td>Git</td>
@@ -187,21 +187,12 @@ A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, local
 </details>
 
 ### Contribuições pessoais
-<p align="justify">Nesse projeto, atuei no desenvolvimento de features e estruturas do backend da ferramenta, que foi construído em Java. Durante o desenvolvimento, enfrentamos diversos desafios que foram superados pelo time do backend. Minhas principais contribuições incluíram:</p>
+<p align="justify">Nesse projeto, atuei no desenvolvimento de features e estruturas do backend, que foi construído em Java. Durante o desenvolvimento, enfrentamos diversos desafios que foram superados pelo time do backend. Minhas principais contribuições incluíram:</p>
 
-#### Registro e Consultas dos Dados:
-- <p align="justify">Desenvolvi a classe EscopoDAO que inclui o método consultaId para consultar informações de clientes com base no CNPJ fornecido.</p>
-- <p align="justify">Utilizei boas práticas, como parametrização para prevenir injeção de SQL, e empreguei o "try-with-resources" para garantir o fechamento adequado de recursos.
+- <p align="justify">Desenvolvi o registro e consultas com o CRUD de cliente utilizando Java. Os campos possuíam validações, exibindo mensagens informativas e de erro conforme necessário.</p>
+- <p align="justify">Utilizei o JavaFX para criar visualmente uma tabela e Java para a população dos dados na tabela de bronze. Desenvolvi o CRUD de bronze e silver para o tratamento dos produtos escolhidos pelo cliente.</p>
 
-#### Atualização de Registros de Clientes:
-- <p align="justify">Implementei o método btn_att_salvar para atualizar informações de clientes em uma aplicação JavaFX.</p>
-- <p align="justify">Realizei validações dos campos obrigatórios e manipulei a lógica de atualização dos dados no banco de dados, exibindo mensagens informativas e de erro conforme necessário. </p>
-
-#### Disponibilização de Tabelas:
-- <p align="justify">Utilizei o JavaFX para criar visualmente uma tabela e o Java para a população dos dados na tabela de bronze.</p>
-- <p align="justify">Configurei as colunas da tabela associadas aos atributos correspondentes da classe BronzeDTO utilizando PropertyValueFactory.</p>
-
-<p align="justify">Minhas contribuições abrangeram diferentes áreas do desenvolvimento, incluindo consultas de dados, criação do CRUD da tela de bronze e silver, e disponibilização de dados em diferentes formatos de tabelas na ferramenta.</p>
+<p align="justify">Minhas contribuições abrangeram diferentes áreas do desenvolvimento, incluindo consultas de dados, criação do CRUD da tela de bronze e silver, e disponibilização de dados em diferentes formatos de tabelas na ferramenta. Por ser o primeiro projeto em Java, tivemos dificuldades na criação do projeto, precisando refatorar algumas vezes. Porém, mesmo com as dificuldades, conseguimos desenvolver um projeto interessante e estruturado.</p>
 
 #### Aprendizados Efetivos 
 - Desenvolvimento de serviços CRUD: Sei fazer com autonomia.
@@ -318,25 +309,19 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 ### Contribuições pessoais
 <p align="justify">Nesse projeto, atuei no desenvolvimento de features e estruturas do backend, utilizando Java com Spring. Ao longo do desenvolvimento, enfrentamos diversos desafios que foram superados pelo time do backend. Minhas principais contribuições incluíram:</p>
 
-#### Registro e Consultas dos Dados:
 - <p align="justify">Utilizei o Spring Data JPA para implementar operações de registro e consulta de dados.</p>
-- <p align="justify">Implementei consultas personalizadas utilizando a anotação @Query para selecionar instâncias da entidade "estacao" com base em critérios específicos.</p>
 
-#### Atualização de Registros Complexos como o Usuário:
-- <p align="justify">Desenvolvi a lógica para atualizar registros complexos, como usuários, utilizando o Spring Data JPA.</p>
-- <p align="justify">Recuperei a entidade, realizei as modificações necessárias e salvei as alterações com o método save().</p>
+- <p align="justify">Desenvolvi a lógica para atualizar registros complexos, como usuários, utilizando o Spring Data.</p>
 
-#### Disponibilização de Documentos em Diferentes Formatos de Gráfico na Ferramenta:
-- <p align="justify">Utilizei bibliotecas Java, como Chart.js, para gerar gráficos em diversos formatos.</p>
-- <p align="justify">Integrando esses gráficos à ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
+- <p align="justify">Desenvolvi diferentes Formatos de Gráfico na Ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
 
-#### Disponibilização de Relatórios em Todas as Telas da Aplicação:
-- <p align="justify">Utilizei bibliotecas de geração de relatórios, como JasperReports ou Apache POI, para criar relatórios em PDF.</p>
+- <p align="justify">Desenvolvi Relatórios em Todas as Telas da Aplicação para criar PDF, com os dados selecionados pelo usuario.</p>
+
+<p align="justify">Nesse projeto, eu já possuía conhecimento de Java e orientação a objetos. No entanto, foi o primeiro projeto em que precisei utilizar o Spring. No começo, fiquei um pouco perdida, mas ao decorrer do projeto, com muito estudo, conseguimos desenvolver uma aplicação que atendia a todos os requisitos. Mesmo não sendo o código mais fluido e utilizando todos os atalhos e métodos do próprio Spring, conseguimos entregar algo legal com o conhecimento que possuíamos no momento.</p>
 
 #### Aprendizados Efetivos HS
 - Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
 - Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
-- Desenvolvimento de graficos para aplicação usando Chart.js: Sei fazer com autonomia; <br/>
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
 
 ### Aprendizados Efetivos Hard Skills
@@ -348,10 +333,6 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
   <tr>
     <td>SpringBoot</td>
     <td>★★★★★☆☆☆☆☆</td>
-  </tr>
-  <tr>
-    <td>Chart.js</td>
-    <td>★★★☆☆☆☆☆☆☆</td>
   </tr>
   <tr>
     <td>SQL</td>
@@ -435,21 +416,13 @@ Empresa parceira: Embraer
 ### Contribuições pessoais
 <p align="justify">Neste projeto, minhas contribuições foram significativas em diversas áreas do backend, utilizando Java com Spring, e algumas ajudas pontuais quando necessario no frontend, com Javascript e Vue.js. Aqui estão algumas das minhas contribuições:</p>
 
-#### Registro e Consultas dos Dados:
-- <p align="justify">Realizei consultas por filtro utilizando o JPA para buscar dados específicos.</p>
 - <p align="justify">Utilizei o Spring Data JPA para implementar métodos personalizados de consulta específicas para filtrar dados com base em critérios definidos.</p>
 
-#### Atualização de Registros dos Chassi e Boletins:
 - <p align="justify">Realizei a atualização de chachi e dados relacionados aos aviões, utilizando o CRUD em Java.</p>
-- <p align="justify">Mapeei as entidades JPA e utilizei o Spring Data JPA para atualizar os registros no banco de dados.</p>
 
-#### Disponibilização em Formatos de Gráficos:
-- <p align="justify">Utilizei o Vue.js para verificar dados estáticos dos aviões e o que cada avião possui.</p>
-- <p align="justify">Integrando esses gráficos à ferramenta, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
+- <p align="justify">Utilizei o Vue.js para verificar dados estáticos dos aviões e o que cada avião possui, os disponibilizei aos usuários para uma melhor visualização e análise dos dados.</p>
 
-#### Lógica de Geração de Item
-- <p align="justify">Implementou-se uma lógica para gerar itens com base em uma fórmula fornecida, utilizando o Spring Data JPA e outras bibliotecas relacionadas.</p>
-- <p align="justify">Os itens são processados e gerados a partir de uma lista de amostras e fórmulas obtidas dos repositórios Spring Data JPA.</p>
+- <p align="justify">Implementoi uma lógica para gerar itens com base em uma fórmula fornecida, itens são processados e gerados a partir de uma lista de amostras e fórmulas obtidas dos repositórios Spring Data JPA.</p>
 
 
 <p align="justify">Minhas contribuições abrangeram desde a manipulação de dados até a disponibilização de funcionalidades essenciais para os usuários.</p>
