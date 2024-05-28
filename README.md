@@ -416,6 +416,7 @@ Empresa parceira: Embraer
 ### Contribuições pessoais
 <p align="justify">Neste projeto, minhas contribuições foram significativas em diversas áreas do backend, utilizando Java com Spring, e algumas ajudas pontuais quando necessario no frontend, com Javascript e Vue.js. Aqui estão algumas das minhas contribuições:</p>
 
+
 - <p align="justify">Utilizei o Spring Data JPA para implementar métodos personalizados de consulta específicas para filtrar dados com base em critérios definidos.</p>
 
 - <p align="justify">Realizei a atualização de chachi e dados relacionados aos aviões, utilizando o CRUD em Java.</p>
@@ -520,19 +521,18 @@ Empresa parceira: Oracle
 ### Contribuições pessoais
 <p align="justify">Neste projeto, minhas contribuições foram significativas em várias áreas do backend, utilizando Java com Spring. Seguem detalhes das minhas contribuições:</p>
 
-#### Manipulação de Dados:
+
 - <p align="justify">Implementei o código para inserção de dados via arquivo CSV, utilizando Java e Spring.</p>
+
 - <p align="justify">Desenvolvi operações CRUD para insumos e fornecedores, garantindo a integridade e a disponibilidade dos dados.</p>
 
-#### Desenvolvimento de Funcionalidades:
-- <p align="justify">Desenvolvi serviços CRUD completos utilizando Spring Boot, proporcionando operações de criação, leitura, atualização e exclusão de recursos de forma eficiente.</p>
-- <p align="justify">Contribuí para o desenvolvimento da logica de estoque e fornecedores da aplicação.</p>
+- <p align="justify">Desenvolvi a logica a de estoque e fornecedores da aplicação.</p>
 
-#### Testes Unitários:
+
 - <p align="justify">Escrevi testes unitários abrangentes para o código backend em Java, utilizando ferramentas como JUnit e Mockito, garantindo a qualidade e a confiabilidade do software.</p>
-- <p align="justify">Participei ativamente na criação e execução de testes de integração para validar a integração entre os diferentes componentes da aplicação.</p>
 
-<p align="justify">Minhas contribuições foram essenciais para garantir a funcionalidade, a qualidade e a confiabilidade do sistema, desde a manipulação de dados até a implementação de funcionalidades críticas.</p>
+
+<p align="justify">Neste projeto, como eu já possuía conhecimento em Java, o desenvolvimento foi mais simples. Acabei aprendendo algumas coisas novas sobre as funcionalidades do Spring. Além disso, incluímos no projeto a parte de testes de software, algo que não era utilizado anteriormente, garantindo assim a qualidade do projeto.</p>
 
 #### Aprendizados Efetivos 
 - Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
@@ -556,7 +556,7 @@ Empresa parceira: Oracle
   </tr>
   <tr>
     <td>Teste unitários</td>
-    <td>★★★★★☆☆☆☆☆</td>
+    <td>★★★★★★☆☆☆☆</td>
   </tr>
   <tr>
     <td>SQL</td>
@@ -636,27 +636,25 @@ Empresa parceira: Imagem
 
 
 ### Contribuições pessoais
-<p align="justify">Neste projeto, minhas contribuições foram significativas em várias áreas do backend, utilizando Java com Spring. Seguem detalhes das minhas contribuições:</p>
+<p align="justify">Neste projeto, minhas contribuições foram significativas em várias áreas. Atuei como Product Owner (PO) e fiz parte da equipe de front-end utilizando React. Seguem detalhes das minhas contribuições:</p>
 
-#### Manipulação de Dados:
-- <p align="justify">Implementei o código para inserção de dados via arquivo CSV, utilizando Java e Spring.</p>
-- <p align="justify">Desenvolvi operações CRUD para insumos e fornecedores, garantindo a integridade e a disponibilidade dos dados.</p>
+- <p align="justify">Organizei e planejei o projeto, realizando minhas atividades como PO, garantindo uma comunicação clara com o cliente e mantendo a qualidade do projeto.</p>
 
-#### Desenvolvimento de Funcionalidades:
-- <p align="justify">Desenvolvi serviços CRUD completos utilizando Spring Boot, proporcionando operações de criação, leitura, atualização e exclusão de recursos de forma eficiente.</p>
-- <p align="justify">Contribuí para o desenvolvimento da logica de estoque e fornecedores da aplicação.</p>
+- <p align="justify">Desenvolvi a tela de "My Profile" utilizando React, onde o usuário tem acesso aos seus dados pessoais e pode atualizar informações ou senhas conforme necessário.</p>
 
-#### Testes Unitários:
-- <p align="justify">Escrevi testes unitários abrangentes para o código backend em Java, utilizando ferramentas como JUnit e Mockito, garantindo a qualidade e a confiabilidade do software.</p>
-- <p align="justify">Participei ativamente na criação e execução de testes de integração para validar a integração entre os diferentes componentes da aplicação.</p>
+- <p align="justify">Desenvolvi a tela de "Data Source" onde o usuário pode verificar os dados utilizados para o dashboard.</p>
 
-<p align="justify">Minhas contribuições foram essenciais para garantir a funcionalidade, a qualidade e a confiabilidade do sistema, desde a manipulação de dados até a implementação de funcionalidades críticas.</p>
+- <p align="justify">Implementei os filtros de sentimentos e de fonte de dados para os gráficos do dashboard.</p>
+
+- <p align="justify">Desenvolvi a lógica de extração de relatório em Java Spring, possibilitando a exportação de um arquivo CSV com todos os dados da fonte de dados escolhida pelo usuário.</p>
+
+<p align="justify">Neste projeto, tive um contato maior com o front-end, o que inicialmente apresentou dificuldades, pois não tinha familiaridade com a linguagem escolhida. No entanto, ao final das sprints, consegui realizar as tarefas com autonomia. Também precisei ajudar no back-end quando necessário, o que não apresentou muitas dificuldades no desenvolvimento. Além disso, como PO, assegurei que as prioridades do produto estivessem alinhadas com as necessidades dos usuários e a visão do cliente, facilitando a comunicação e garantindo o cumprimento dos requisitos.</p>
 
 #### Aprendizados Efetivos 
-- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
-- Desenvolvimento de ApiRest utilizando SpringBoot: Sei fazer com autonomia; <br/>
-- Desenvolvimento de inserção de dados via arquivo CSV: Sei fazer com autonomia; <br/>
-- Desenvolvimento de teste unitários: Sei fazer com autonomia; <br/>
+- Desenvolvimento de tela em React: Sei fazer com autonomia;
+- Desenvolvimento de dashboard: Sei fazer com autonomia;
+- Desenvolvimento de exportação via arquivo CSV: Sei fazer com autonomia;
+- Atividade relacionada ao PO: Sei fazer com autonomia;
 
 ### Aprendizados Efetivos Hard Skills
 <table>
