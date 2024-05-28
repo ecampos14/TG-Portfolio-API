@@ -424,8 +424,7 @@ Empresa parceira: Embraer
 
 - <p align="justify">Implementoi uma lógica para gerar itens com base em uma fórmula fornecida, itens são processados e gerados a partir de uma lista de amostras e fórmulas obtidas dos repositórios Spring Data JPA.</p>
 
-
-<p align="justify">Minhas contribuições abrangeram desde a manipulação de dados até a disponibilização de funcionalidades essenciais para os usuários.</p>
+<p align="justify">Neste projeto, eu já possuía conhecimento em Spring, mas, ao decorrer do desenvolvimento, fui aprendendo a usar as ferramentas diretamente do Spring. Passei a entender como deixar o código mais limpo e rápido, conseguindo desenvolver uma aplicação mais eficiente e fluida. Embora tenha tido meu primeiro contato com Vue.js, não estava diretamente ligada ao front, mas precisei aprender para ajudar a equipe em alguns momentos.</p>
 
 #### Aprendizados Efetivos 
 - Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
