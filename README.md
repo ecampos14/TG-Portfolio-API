@@ -596,7 +596,7 @@ Empresa parceira: Imagem
 <p align="justify">A Imagem é uma empresa brasileira de tecnologia líder em Sistemas de Informações Geográficas, distribuidora oficial no Brasil da plataforma ArcGIS, da norte-americana Esri..</p>
 
 ### Visão do Projeto
-<p align="justify">Desenvolvemos uma plataforma que analisa avaliações online. Integramos tecnologias para mapear e visualizar esses sentimentos em contexto geográfico, permitindo que as empresas ajustem estratégias com uma precisão sem precedentes. Fornecendo insights acionáveis ​​para impulsionar a inovação e o crescimento, inaugurando uma nova era de envolvimento do cliente baseado em dados.</p>
+<p align="justify">No Projeto PandaLuze, desenvolvemos uma plataforma inovadora para analisar sentimentos por geolocalização. Utilizando tecnologias avançadas, criamos um sistema que mapeia e visualiza sentimentos em contextos geográficos reais. Isso permite que as empresas obtenham insights precisos e ajustem suas estratégias de negócios de maneira mais eficaz, impulsionando a inovação e o crescimento. A plataforma fornece informações acionáveis para melhorar a experiência do cliente e otimizar o engajamento baseado em dados.</p>
 
   <p align="center">
       <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
@@ -663,20 +663,20 @@ Empresa parceira: Imagem
     <th width="300px">Classificação</th>
   </tr>
   <tr>
-    <td>Java</td>
+    <td>React</td>
+    <td>★★★★★★☆☆☆☆</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
     <td>★★★★★★★☆☆☆</td>
   </tr>
   <tr>
     <td>SpringBoot</td>
+    <td>★★★★★★★★☆☆</td>
+  </tr>
+  <tr>
+    <td>PO</td>
     <td>★★★★★★★☆☆☆</td>
-  </tr>
-  <tr>
-    <td>Teste unitários</td>
-    <td>★★★★★☆☆☆☆☆</td>
-  </tr>
-  <tr>
-    <td>SQL</td>
-    <td>★★★★★★☆☆☆☆</td>
   </tr>
  
 </table>
@@ -686,17 +686,17 @@ Empresa parceira: Imagem
 
 <p align="justify">Durante o desenvolvimento deste projeto, adquiri e fortaleci diversas soft skills que desempenharam um papel fundamental no sucesso da equipe e na conclusão das tarefas. Destaco as seguintes:</p>
 
-#### Visão Geral:
-- <p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas.</p>
-- <p align="justify">Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
-
 #### Organização:
 - <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
 - <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
 
-#### Gestão de Tempo:
-- <p align="justify">Adotei uma abordagem disciplinada para gerenciar meu tempo de forma eficaz, priorizando tarefas de acordo com sua importância e urgência.</p>
-- <p align="justify">Estabeleci metas realistas e utilizei técnicas de planejamento para cumprir prazos e alcançar marcos importantes do projeto de maneira consistente.</p>
+#### Flexibilidade:
+- <p align="justify">Demonstrei flexibilidade ao adaptar-me a mudanças no projeto e redirecionar esforços conforme necessário para atender às novas demandas.</p>
+- <p align="justify">Fui capaz de ajustar prioridades e encontrar soluções rápidas e eficazes para problemas imprevistos.</p>
+
+#### Orientação para Resultados:
+- <p align="justify">Foquei consistentemente em alcançar os objetivos do projeto, entregando resultados de alta qualidade dentro dos prazos estabelecidos.</p>
+- <p align="justify">Monitorei e avaliei regularmente o progresso do projeto, ajustando estratégias conforme necessário para garantir o sucesso.</p>
 
 
 <p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">Repositorio do Projeto</p>  
