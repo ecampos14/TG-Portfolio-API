@@ -478,7 +478,7 @@ Empresa parceira: Embraer
     
 ---
 
-## <a name="5º-semestre"></a> 5º Semestre
+## <a name="5º-semestre"></a> 5º Semestre • 2/2023
 Empresa parceira: Oracle
 
 <p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/imgOracleFatec_1.jpg"><p align="center">    
@@ -587,7 +587,7 @@ Empresa parceira: Oracle
 
 ---
 
-## <a name="6º-semestre"></a> 6º Semestre
+## <a name="6º-semestre"></a> 6º Semestre • 1/2023
 
 Empresa parceira: Imagem
 
@@ -686,7 +686,7 @@ Empresa parceira: Imagem
 
 <p align="justify">Durante o desenvolvimento deste projeto, adquiri e fortaleci diversas soft skills que desempenharam um papel fundamental no sucesso da equipe e na conclusão das tarefas. Destaco as seguintes:</p>
 
-#### Organização:
+`Organização:`
 - <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
 - <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
 
