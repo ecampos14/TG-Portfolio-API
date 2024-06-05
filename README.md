@@ -376,7 +376,10 @@ Empresa parceira: Embraer
   <p align="center">
       <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/4°SEM/prototipo-CEmbraer.gif" width="100%" height="100%">
 <p align="center">      
-
+<br/>
+ <p align="center">
+      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/4°SEM/dispositivos1.png" width="100%" height="100%">
+<p align="center">
 
 ### Tecnologias adotadas na solução
 <details>
