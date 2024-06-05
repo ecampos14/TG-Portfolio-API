@@ -7,7 +7,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 ## Sobre mim
 
 <p align="center">
-    <img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/1°SEM/20231103_202541.png" width="20%" style="border-radius: 50%;">
+    <img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/1°SEM/foto.jpg" width="20%" style="border-radius: 50%;">
 </p>
 
 <p align="justify"> Atualmente atuando como Analista de QA. Minha jornada na Tecnologia da Informação começou em 2019 na Unifesp, onde inicialmente me dediquei a estudos interdisciplinares em Ciências e Tecnologia. No entanto, optei por migrar para a Fatec, focando especificamente no curso de Banco de Dados. Minha experiência como Analista de QA na Touch Tec desde maio de 2022 tem sido enriquecedora. Durante esse período, aprimorei minhas habilidades em ferramentas como Postman, Confluence, Jira, Cypress, Git e jUnit, além de consolidar minha compreensão das metodologias ágeis, com destaque para o Scrum.</p>
