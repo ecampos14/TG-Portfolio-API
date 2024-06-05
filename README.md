@@ -110,17 +110,10 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 <p align="justify">Durante minha participação neste projeto, desenvolvi e aprimorei várias soft skills que foram fundamentais para o seu sucesso:</p>
 
 #### Liderança:
-- <p align="justify">Como Master do projeto, exerci liderança ao guiar a equipe no desenvolvimento.</p>
-- <p align="justify">Fornecei direção e apoio, incentivando a colaboração e o trabalho em equipe para alcançar os objetivos do projeto.</p>
-- <p align="justify">Tomei decisões assertivas e assumi a responsabilidade por orientar o progresso do projeto.</p>
+<p align="justify">Como Master do projeto, exerci liderança ao guiar a equipe no desenvolvimento. Nao possuia conhecimento do metodo scrum, acabei tomando algumas decisoes que nao foram boas para a equipe,  .</p>
 
 #### Organização:
-- <p align="justify">Demonstrei habilidades organizacionais ao coordenar tarefas, atribuir responsabilidades e garantir que os prazos fossem cumpridos.</p>
-- <p align="justify">Mantive a documentação do projeto atualizada e organizada, facilitando o acesso às informações essenciais para todos os membros da equipe.</p>
-
-#### Visão Geral:
-- <p align="justify">Desenvolvi uma compreensão abrangente dos requisitos e objetivos do projeto, bem como das capacidades e limitações da equipe.</p>
-- <p align="justify">Mantive uma visão geral do progresso do projeto, identificando áreas de melhoria e oportunidades para otimização.</p>
+<p align="justify">Demonstrei habilidades organizacionais ao coordenar tarefas, atribuir responsabilidades e garantir que os prazos fossem cumpridos. Mantive a documentação do projeto atualizada e organizada, facilitando o acesso às informações essenciais para todos os membros da equipe.</p>
 
 #
 
