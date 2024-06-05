@@ -603,7 +603,13 @@ Empresa parceira: Imagem
 
   <p align="center">
       <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
-<p align="center">   
+<p align="center"> 
+ <br/>
+ <p align="center">
+      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/6°SEM/pandalyzefundo.jpg" width="100%" height="100%">
+<p align="center">
+
+
 
 ### Tecnologias adotadas na solução
 <details>
