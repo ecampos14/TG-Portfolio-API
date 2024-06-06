@@ -110,10 +110,10 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 <p align="justify">Durante minha participação neste projeto, desenvolvi e aprimorei várias soft skills que foram fundamentais para o seu sucesso:</p>
 
 #### Liderança:
-<p align="justify">Como Master do projeto, exerci liderança ao guiar a equipe no desenvolvimento. Nao possuia conhecimento do metodo scrum, acabei tomando algumas decisoes que nao foram boas para a equipe,  .</p>
+<p align="justify">Como Master do projeto, exerci liderança ao guiar a equipe no desenvolvimento. Embora inicialmente eu não tivesse conhecimento do método Scrum, enfrentei alguns desafios e tomei decisões que não foram ideais, resultando em problemas para a equipe. No entanto, ao longo das sprints, ajustamos nossas abordagens e conseguimos finalizar o projeto com sucesso.</p>
 
 #### Organização:
-<p align="justify">Demonstrei habilidades organizacionais ao coordenar tarefas, atribuir responsabilidades e garantir que os prazos fossem cumpridos. Mantive a documentação do projeto atualizada e organizada, facilitando o acesso às informações essenciais para todos os membros da equipe.</p>
+<p align="justify">Demonstrei habilidades organizacionais ao coordenar tarefas, atribuir responsabilidades e garantir o cumprimento dos prazos. Mantive a documentação do projeto atualizada e organizada. No início, devido ao meu primeiro contato com o GitHub no primeiro semestre, tive dificuldades em documentar corretamente. Contudo, consegui organizar as informações de forma a facilitar o acesso para todos os membros da equipe.</p>
 
 #
 
@@ -218,18 +218,10 @@ A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, local
 <p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
 
 #### Colaboração:
-- <p align="justify">Participei ativamente de discussões e trocas de ideias com os membros da equipe, contribuindo com sugestões e soluções para os desafios encontrados.</p>
-- <p align="justify">Colaborei na resolução de problemas, oferecendo suporte e assistência aos colegas sempre que necessário.</p>
-- <p align="justify">Estive aberto a ouvir e integrar feedbacks, buscando sempre melhorar o trabalho em conjunto e o resultado final do projeto.</p>
-
-#### Flexibilidade:
-- <p align="justify">Demonstrei flexibilidade ao lidar com mudanças de escopo, prioridades e prazos ao longo do projeto.</p>
-- <p align="justify">Adaptei-me rapidamente a novas tecnologias, metodologias e requisitos, garantindo que as demandas do projeto fossem atendidas de forma eficaz.</p>
-- <p align="justify">Estive disposto a assumir diferentes papéis e responsabilidades conforme as necessidades da equipe e do projeto.</p>
+<p align="justify">Participei ativamente de discussões e trocas de ideias com os membros da equipe. Neste semestre, trabalhamos com nosso primeiro cliente, uma empresa real, o que nos exigiu adaptar ao funcionamento das sprints e responder a opiniões e pedidos do cliente. O grupo se apoiou intensamente, com cada membro contribuindo de acordo com suas habilidades. Estive sempre aberto a ouvir e integrar feedbacks, buscando constantemente melhorar o trabalho em conjunto e o resultado final do projeto.</p>
 
 #### Trabalho em Equipe:
-- <p align="justify">Colaborei ativamente com os membros da equipe, compartilhando conhecimento, experiências e recursos para alcançar os objetivos comuns do projeto.</p>
-- <p align="justify">Mantive uma visão geral do progresso do projeto, identificando áreas de melhoria e oportunidades para otimização.</p>
+<p align="justify">Colaborei ativamente com os membros da equipe, compartilhando conhecimento, experiências e recursos para alcançar os objetivos comuns do projeto. Tive meu primeiro contato com Java e, junto com outro membro da equipe, fui responsável pelo back-end. Ajudamos uns aos outros sempre que necessário, promovendo o desenvolvimento das habilidades individuais. Mantive uma visão geral do progresso do projeto, identificando áreas de melhoria e oportunidades para otimização.</p>
 
 #
 
