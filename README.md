@@ -117,7 +117,8 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 
 #
 
-<p align="center"> <a href="https://github.com/ecampos14/TRACKER-BD-Semestre1">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/TRACKER-BD-Semestre1">• Repositorio do Projeto •</a></p>
+ 
   
 ---
 ## <a name="2º-semestre"></a> 2º Semestre • 1/2022 
@@ -225,7 +226,7 @@ A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, local
 
 #
 
-<p align="center"> <a href="https://github.com/ecampos14/Dom_Rock">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/Dom_Rock">• Repositorio do Projeto •</p>  
 
 ---
 
@@ -336,7 +337,7 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 <p align="justify">Gerenciei o tempo dedicado ao desenvolvimento de features do backend, incluindo meu primeiro contato com o Spring Boot. No início do projeto, algumas tarefas simples demoravam muito para serem concluídas, o que me levou a aprender a priorizar atividades de acordo com sua urgência e importância. Cumpri os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
 #
 
-<p align="center"> <a href="https://github.com/ecampos14/Iacit">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/Iacit">• Repositorio do Projeto •</p>  
   
 ---
 
@@ -449,7 +450,7 @@ Empresa parceira: Embraer
 
 #
 
-<p align="center"> <a href="https://github.com/ecampos14/apiEmbraer4-sem">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/apiEmbraer4-sem">• Repositorio do Projeto •</p>  
     
 ---
 
@@ -551,7 +552,7 @@ Empresa parceira: Oracle
 `Organização:`
 <p align="justify">Demonstrei habilidades de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código-fonte de forma clara e acessível. Nesse semestre, também precisávamos incorporar a parte de DevOps na aplicação, o que exigiu uma organização rigorosa dentro da API. Isso garantiu que cada membro do grupo pudesse manter suas tarefas em dia e entregar o que era solicitado para DevOps. Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
 
-<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">• Repositorio do Projeto •</p>  
 
 ---
 
@@ -660,19 +661,14 @@ Empresa parceira: Imagem
 
 <p align="justify">Durante o desenvolvimento deste projeto, adquiri e fortaleci diversas soft skills que desempenharam um papel fundamental no sucesso da equipe e na conclusão das tarefas. Destaco as seguintes:</p>
 
-`Organização:`
-- <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
-- <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
+`Visão Geral:`
+<p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas. Como Product Owner nesse projeto, tive que aprender outras partes do produto que eu não conhecia, adquirindo uma visão mais ampla de organização, produto, requisitos e auxiliando também em outras áreas do projeto. Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
 
-#### Visão Geral:
-<p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas. Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
-
-#### Orientação para Resultados:
-- <p align="justify">Foquei consistentemente em alcançar os objetivos do projeto, entregando resultados de alta qualidade dentro dos prazos estabelecidos.</p>
-- <p align="justify">Monitorei e avaliei regularmente o progresso do projeto, ajustando estratégias conforme necessário para garantir o sucesso.</p>
+`Orientação para Resultados:`
+<p align="justify">Foquei consistentemente em alcançar os objetivos do projeto, entregando resultados de qualidade dentro dos prazos estabelecidos. Como PO, organizei o backlog do projeto para que fosse sempre possível manter a qualidade em todas as sprints. Mantive a documentação atualizada e clara, assegurando que os pré-requisitos necessários para cada tarefa fossem realizados. Além disso, monitorei e avaliei regularmente o progresso do projeto, ajustando estratégias conforme necessário para garantir o sucesso.</p>
 
 
-<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">Repositorio do Projeto</p>  
+<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">• Repositorio do Projeto •</p>  
 ---
 
 <p align="center">
