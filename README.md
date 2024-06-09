@@ -109,11 +109,11 @@ A Faculdade de Tecnologia de São José dos Campos foi criada no dia 2 de março
 ### Soft Skills
 <p align="justify">Durante minha participação neste projeto, desenvolvi e aprimorei várias soft skills que foram fundamentais para o seu sucesso:</p>
 
-#### Liderança:
+`Liderança:`
 <p align="justify">Como Master do projeto, exerci liderança ao guiar a equipe no desenvolvimento. Embora inicialmente eu não tivesse conhecimento do método Scrum, enfrentei alguns desafios e tomei decisões que não foram ideais, resultando em problemas para a equipe. No entanto, ao longo das sprints, ajustamos nossas abordagens e conseguimos finalizar o projeto com sucesso.</p>
 
-#### Organização:
-<p align="justify">Demonstrei habilidades organizacionais ao coordenar tarefas, atribuir responsabilidades e garantir o cumprimento dos prazos. Mantive a documentação do projeto atualizada e organizada. No início, devido ao meu primeiro contato com o GitHub no primeiro semestre, tive dificuldades em documentar corretamente. Contudo, consegui organizar as informações de forma a facilitar o acesso para todos os membros da equipe.</p>
+
+`Organização:`<p align="justify"> Demonstrei habilidades organizacionais ao coordenar tarefas, atribuir responsabilidades e garantir o cumprimento dos prazos. Mantive a documentação do projeto atualizada e organizada. No início, devido ao meu primeiro contato com o GitHub no primeiro semestre, tive dificuldades em documentar corretamente. Contudo, consegui organizar as informações de forma a facilitar o acesso para todos os membros da equipe.</p>
 
 #
 
@@ -217,10 +217,10 @@ A DOMROCK é uma empresa brasileira sediada em São José dos Campos - SP, local
 ### Soft Skills
 <p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
 
-#### Colaboração:
+`Colaboração:`
 <p align="justify">Participei ativamente de discussões e trocas de ideias com os membros da equipe. Neste semestre, trabalhamos com nosso primeiro cliente, uma empresa real, o que nos exigiu adaptar ao funcionamento das sprints e responder a opiniões e pedidos do cliente. O grupo se apoiou intensamente, com cada membro contribuindo de acordo com suas habilidades. Estive sempre aberto a ouvir e integrar feedbacks, buscando constantemente melhorar o trabalho em conjunto e o resultado final do projeto.</p>
 
-#### Trabalho em Equipe:
+`Trabalho em Equipe:`
 <p align="justify">Colaborei ativamente com os membros da equipe, compartilhando conhecimento, experiências e recursos para alcançar os objetivos comuns do projeto. Tive meu primeiro contato com Java e, junto com outro membro da equipe, fui responsável pelo back-end. Ajudamos uns aos outros sempre que necessário, promovendo o desenvolvimento das habilidades individuais. Mantive uma visão geral do progresso do projeto, identificando áreas de melhoria e oportunidades para otimização.</p>
 
 #
@@ -330,18 +330,10 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 <p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
 
 #### Resiliência:
-- <p align="justify">Enfrentei diversos desafios ao longo do projeto, como problemas técnicos, prazos apertados e mudanças de requisitos.</p>
-- <p align="justify">Mantive a calma e a determinação para encontrar soluções eficazes, mesmo diante de obstáculos significativos.</p>
-
-#### Organização:
-- <p align="justify">Lidar com múltiplas tarefas e demandas exigia uma abordagem organizada.</p>
-- <p align="justify">Mantive a estrutura organizada do código-fonte no backend, seguindo padrões e boas práticas de desenvolvimento.</p>
-- <p align="justify">Coordenei eficientemente as tarefas da equipe, priorizando as demandas e garantindo a fluidez do desenvolvimento.</p>
+<p align="justify">Enfrentei diversos desafios ao longo do projeto, como problemas técnicos ao aprender um novo framework para a API, prazos apertados devido às aulas exigentes e mudanças de requisitos no projeto. Mantive a calma e a determinação para encontrar soluções eficazes, mesmo diante de obstáculos significativos.</p>
 
 #### Gestão de Tempo:
-- <p align="justify">Gerenciei o tempo dedicado ao desenvolvimento de features do backend, priorizando as atividades de acordo com a urgência e importância.</p>
-- <p align="justify">Cumprimos os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
-
+<p align="justify">Gerenciei o tempo dedicado ao desenvolvimento de features do backend, incluindo meu primeiro contato com o Spring Boot. No início do projeto, algumas tarefas simples demoravam muito para serem concluídas, o que me levou a aprender a priorizar atividades de acordo com sua urgência e importância. Cumpri os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
 #
 
 <p align="center"> <a href="https://github.com/ecampos14/Iacit">Repositorio do Projeto</p>  
@@ -448,17 +440,12 @@ Empresa parceira: Embraer
 ### Soft Skills
 <p align="justify">Durante o desenvolvimento deste projeto, desenvolvi diversas soft skills que foram fundamentais para o sucesso da equipe e a conclusão das tarefas. Entre elas, destaco:</p>
 
-#### Cooperação:
-- <p align="justify">Trabalhei em estreita colaboração com os membros da equipe, compartilhando ideias, recursos e responsabilidades para alcançar os objetivos do projeto.</p>
-- <p align="justify">Contribuí ativamente para um ambiente de trabalho colaborativo, onde todos os membros se sentiam valorizados e apoiados.</p>
+`Cooperação:`
+<p align="justify">Trabalhei em colaboração com os membros da equipe, compartilhando ideias, recursos e responsabilidades para alcançar os objetivos do projeto. Neste semestre, dividimos nosso grupo para trabalhar com um número menor de participantes, o que exigiu uma cooperação maior de todos. Trabalhamos em conjunto para desenvolver o projeto, sempre auxiliando nas tarefas quando alguém precisava de ajuda.</p>
 
-#### Empatia:
-- <p align="justify">Demonstrei empatia ao compreender as necessidades, preocupações e perspectivas dos outros membros da equipe.</p>
-- <p align="justify">Adotei uma abordagem centrada nas pessoas, buscando entender os desafios individuais de cada membro e oferecendo suporte quando necessário.</p>
+`Empatia:`
+<p align="justify">Demonstrei empatia ao compreender as necessidades, preocupações e perspectivas dos outros membros da equipe. Busquei entender os desafios individuais de cada membro e oferecer suporte quando necessário. Como já tive contato com o Spring em projetos anteriores, possuía uma facilidade maior em resolver algumas tarefas mais simples. No entanto, alguns colegas não tinham o mesmo conhecimento, então foi necessário ter empatia e paciência para auxiliá-los nas tarefas em que encontravam mais dificuldade.</p>
 
-#### Gestão de Tempo:
-- <p align="justify">Assumi uma postura proativa ao antecipar problemas potenciais e propor soluções antes que se tornassem obstáculos significativos.</p>
-- <p align="justify">Cumprimos os prazos estabelecidos para as entregas, garantindo que as funcionalidades fossem implementadas dentro do cronograma.</p>
 
 #
 
@@ -558,18 +545,11 @@ Empresa parceira: Oracle
 
 <p align="justify">Durante o desenvolvimento deste projeto, adquiri e fortaleci diversas soft skills que desempenharam um papel fundamental no sucesso da equipe e na conclusão das tarefas. Destaco as seguintes:</p>
 
-#### Visão Geral:
-- <p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas.</p>
-- <p align="justify">Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
+`Flexibilidade:`
+<p align="justify">Demonstrei flexibilidade ao me adaptar a mudanças no projeto e redirecionar esforços conforme necessário para atender às novas demandas. Nesse projeto, inicialmente planejamos uma solução mais extensa do que podíamos entregar dentro do prazo das sprints. Por isso, tivemos que discutir e ajustar nosso backlog para garantir que pudéssemos finalizar o projeto sem deixar partes importantes da aplicação de fora. Fui capaz de ajustar prioridades e encontrar soluções rápidas e eficazes para problemas imprevistos.</p>
 
-#### Organização:
-- <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
-- <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
-
-#### Gestão de Tempo:
-- <p align="justify">Adotei uma abordagem disciplinada para gerenciar meu tempo de forma eficaz, priorizando tarefas de acordo com sua importância e urgência.</p>
-- <p align="justify">Estabeleci metas realistas e utilizei técnicas de planejamento para cumprir prazos e alcançar marcos importantes do projeto de maneira consistente.</p>
-
+`Organização:`
+<p align="justify">Demonstrei habilidades de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código-fonte de forma clara e acessível. Nesse semestre, também precisávamos incorporar a parte de DevOps na aplicação, o que exigiu uma organização rigorosa dentro da API. Isso garantiu que cada membro do grupo pudesse manter suas tarefas em dia e entregar o que era solicitado para DevOps. Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
 
 <p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">Repositorio do Projeto</p>  
 
@@ -581,7 +561,7 @@ Empresa parceira: Imagem
 
 <p align="center"><img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/6°SEM/pandalyzeheader.jpg"><p align="center">    
 
-<p align="justify">A Imagem é uma empresa brasileira de tecnologia líder em Sistemas de Informações Geográficas, distribuidora oficial no Brasil da plataforma ArcGIS, da norte-americana Esri..</p>
+<p align="justify">A Imagem é uma empresa brasileira de tecnologia líder em Sistemas de Informações Geográficas, distribuidora oficial no Brasil da plataforma ArcGIS, da norte-americana Esri.</p>
 
 ### Visão do Projeto
 <p align="justify">No Projeto PandaLuze, desenvolvemos uma plataforma inovadora para analisar sentimentos por geolocalização. Utilizando tecnologias avançadas, criamos um sistema que mapeia e visualiza sentimentos em contextos geográficos reais. Isso permite que as empresas obtenham insights precisos e ajustem suas estratégias de negócios de maneira mais eficaz, impulsionando a inovação e o crescimento. A plataforma fornece informações acionáveis para melhorar a experiência do cliente e otimizar o engajamento baseado em dados.</p>
@@ -684,9 +664,8 @@ Empresa parceira: Imagem
 - <p align="justify">Demonstrei habilidades sólidas de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código fonte de forma clara e acessível.</p>
 - <p align="justify">Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
 
-#### Flexibilidade:
-- <p align="justify">Demonstrei flexibilidade ao adaptar-me a mudanças no projeto e redirecionar esforços conforme necessário para atender às novas demandas.</p>
-- <p align="justify">Fui capaz de ajustar prioridades e encontrar soluções rápidas e eficazes para problemas imprevistos.</p>
+#### Visão Geral:
+<p align="justify">Desenvolvi uma compreensão ampla e abrangente do projeto, incluindo seus objetivos, requisitos e desafios, o que me permitiu contribuir de forma significativa em várias áreas. Mantive-me atualizado sobre as diferentes facetas do projeto, garantindo que minhas contribuições estivessem alinhadas com os objetivos gerais da equipe.</p>
 
 #### Orientação para Resultados:
 - <p align="justify">Foquei consistentemente em alcançar os objetivos do projeto, entregando resultados de alta qualidade dentro dos prazos estabelecidos.</p>
