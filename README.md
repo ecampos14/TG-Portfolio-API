@@ -10,9 +10,16 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
     <img src="https://github.com/ecampos14/TG-Portfolio-API/blob/main/1°SEM/foto.jpg" width="20%" style="border-radius: 50%;">
 </p>
 
-<p align="justify"> Atualmente atuando como Analista de QA. Minha jornada na Tecnologia da Informação começou em 2019 na Unifesp, onde inicialmente me dediquei a estudos interdisciplinares em Ciências e Tecnologia. No entanto, optei por migrar para a Fatec, focando especificamente no curso de Banco de Dados. Minha experiência como Analista de QA na Touch Tec desde maio de 2022 tem sido enriquecedora. Durante esse período, aprimorei minhas habilidades em ferramentas como Postman, Confluence, Jira, Cypress, Git e jUnit, além de consolidar minha compreensão das metodologias ágeis, com destaque para o Scrum.</p>
-<p align="justify"> Possuo habilidades técnicas abrangentes, desde a manipulação de bancos de dados como SQL Server, Postgre e Oracle, até a programação em linguagens como Java, SpringBoot, Quarkus, Vue, JavaScript, Node.js. Reforcei essas habilidades através de cursos na Udemy, abordando temas essenciais como Python, Java, Desenvolvimento Front-end e Testes Automatizados.</p>
+<p align="justify">Me chamo Emanuele Campos, sou de São José dos Campos - SP, e tenho 23 anos. Iniciei minha vida acadêmica em 2019 na Unifesp, onde comecei meus estudos em Interdisciplinares em Ciências e Tecnologia. Inicialmente, não tinha muita vontade de seguir para a área da computação. Estava pensando em, ao terminar o curso do BCT, iniciar o curso de Engenharia Biomédica, que, entre os cursos oferecidos na universidade, era o que mais me agradava. No entanto, as aulas de programação eram obrigatórias no curso do BCT.</p>
+
+<p align="justify">Com a pandemia de 2020, fiquei um bom tempo sem ter aula, voltando no primeiro semestre apenas no final de outubro do mesmo ano. Nesse tempo, reparei que não sabia o que buscava fazer. Terminei o semestre no começo de 2021, por volta de março, e tranquei a minha matrícula. Nesse tempo, busquei opções que me agradavam e resolvi iniciar o curso de Banco de Dados da FATEC.</p>
+
+<p align="justify">Em junho de 2021, iniciei em Banco de Dados. Meu primeiro semestre não foi um dos melhores, por ainda estar de forma online, não me dediquei 100% ao curso e por isso quase desisti. Mas no segundo semestre, tive a oportunidade de entrar em um grupo de API, onde todos se dedicavam bastante, e isso acabou me fazendo perceber que posso sim aprender a programar e gostar de desenvolvimento.</p>
+
+<p align="justify">Atualmente, atuo como Analista de QA. Minha jornada começou no segundo semestre da faculdade, onde tive a oportunidade de estagiar na Touch Health na área de QA. Quando terminou meu estágio, fui efetivada e continuo na mesma equipe, agora atuando como analista. Porém, senti o desejo de explorar mais a área de desenvolvimento e penso em migrar de carreira para descobrir novos desafios e oportunidades que possam vir para minha vida profissional.</p>
+
 <p align="justify">Caso tenha interesse em saber mais sobre minha trajetória profissional e projetos, convido-o a visitar meu perfil no LinkedIn e meu repositório no GitHub.</p>
+
 
 <p align="center">• <a href="https://www.linkedin.com/in/ecampos14/">LinkedIn</a> • <a href="https://github.com/ecampos14">GitHub</a> •</p>
 
@@ -552,6 +559,8 @@ Empresa parceira: Oracle
 `Organização:`
 <p align="justify">Demonstrei habilidades de organização ao priorizar tarefas, gerenciar recursos e manter a documentação e o código-fonte de forma clara e acessível. Nesse semestre, também precisávamos incorporar a parte de DevOps na aplicação, o que exigiu uma organização rigorosa dentro da API. Isso garantiu que cada membro do grupo pudesse manter suas tarefas em dia e entregar o que era solicitado para DevOps. Mantive um ambiente de trabalho organizado e eficiente, facilitando a colaboração e o progresso contínuo do projeto.</p>
 
+#
+
 <p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">• Repositorio do Projeto •</p>  
 
 ---
@@ -667,8 +676,10 @@ Empresa parceira: Imagem
 `Orientação para Resultados:`
 <p align="justify">Foquei consistentemente em alcançar os objetivos do projeto, entregando resultados de qualidade dentro dos prazos estabelecidos. Como PO, organizei o backlog do projeto para que fosse sempre possível manter a qualidade em todas as sprints. Mantive a documentação atualizada e clara, assegurando que os pré-requisitos necessários para cada tarefa fossem realizados. Além disso, monitorei e avaliei regularmente o progresso do projeto, ajustando estratégias conforme necessário para garantir o sucesso.</p>
 
+#
 
 <p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">• Repositorio do Projeto •</p>  
+ 
 ---
 
 <p align="center">
