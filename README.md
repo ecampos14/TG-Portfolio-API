@@ -469,7 +469,7 @@ Empresa parceira: Oracle
 <p align="justify">A Oracle Corporation é uma empresa multinacional de tecnologia e informática norte-americana, especializada no desenvolvimento e comercialização de hardware e softwares e de banco de dados.</p>
 
 ### Visão do Projeto
-<p align="justify">Desenvolvemos um sistema web para gerenciamento de restaurantes, onde priorizamos requisitos funcionais e não funcionais. Criamos painéis para controle de fornecedores e insumos, dashboards para monitoramento de inventário e análise de vendas. Implementamos comparadores para avaliar a relação entre clientes, funcionários e estoque, fornecendo insights valiosos para tomada de decisões.</p>
+<p align="justify">Desenvolvemos um sistema web para gerenciamento de restaurantes. Criamos painéis para controle de fornecedores e insumos, dashboards para monitoramento de inventário e análise de vendas. Implementamos comparadores para avaliar a relação entre clientes, funcionários e estoque, fornecendo insights valiosos para tomada de decisões.</p>
 
   <p align="center">
       <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
@@ -574,7 +574,7 @@ Empresa parceira: Imagem
 <p align="justify">A Imagem é uma empresa brasileira de tecnologia líder em Sistemas de Informações Geográficas, distribuidora oficial no Brasil da plataforma ArcGIS, da norte-americana Esri.</p>
 
 ### Visão do Projeto
-<p align="justify">No Projeto PandaLuze, desenvolvemos uma plataforma inovadora para analisar sentimentos por geolocalização. Utilizando tecnologias avançadas, criamos um sistema que mapeia e visualiza sentimentos em contextos geográficos reais. Isso permite que as empresas obtenham insights precisos e ajustem suas estratégias de negócios de maneira mais eficaz, impulsionando a inovação e o crescimento. A plataforma fornece informações acionáveis para melhorar a experiência do cliente e otimizar o engajamento baseado em dados.</p>
+<p align="justify">No Projeto PandaLyze, desenvolvemos uma plataforma inovadora para analisar sentimentos por geolocalização. Utilizando tecnologias avançadas, criamos um sistema que mapeia e visualiza sentimentos em contextos geográficos reais. Isso permite que as empresas obtenham insights precisos e ajustem suas estratégias de negócios de maneira mais eficaz, impulsionando a inovação e o crescimento. A plataforma fornece informações acionáveis para melhorar a experiência do cliente e otimizar o engajamento baseado em dados.</p>
 
   <p align="center">
       <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
