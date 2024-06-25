@@ -577,7 +577,7 @@ Empresa parceira: Imagem
 <p align="justify">No Projeto PandaLyze, desenvolvemos uma plataforma inovadora para analisar sentimentos por geolocalização. Utilizando tecnologias avançadas, criamos um sistema que mapeia e visualiza sentimentos em contextos geográficos reais. Isso permite que as empresas obtenham insights precisos e ajustem suas estratégias de negócios de maneira mais eficaz, impulsionando a inovação e o crescimento. A plataforma fornece informações acionáveis para melhorar a experiência do cliente e otimizar o engajamento baseado em dados.</p>
 
   <p align="center">
-      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/5°SEM/gif.gif" width="100%" height="100%">
+      <img src= "https://github.com/ecampos14/TG-Portfolio-API/blob/main/6°SEM/gif-imagem.gif" width="100%" height="100%">
 <p align="center"> 
  <br/>
  <p align="center">
@@ -678,7 +678,7 @@ Empresa parceira: Imagem
 
 #
 
-<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Oracle">• Repositorio do Projeto •</p>  
+<p align="center"> <a href="https://github.com/ecampos14/Projeto-Integrador-Imagem">• Repositorio do Projeto •</p>  
  
 ---
 
